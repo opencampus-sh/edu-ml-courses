@@ -8,7 +8,6 @@ Introduction of the course, opencampus, the course instructor and the course par
 
 **Tool Set-Up**
 
-* Coursera
 * Colab
 * Editor (VSCode)
 * Virtual Environments
@@ -22,7 +21,7 @@ PyTorch 101 (Lab 01)
 
 A visual overview of the workflow in the Colab notebook you can get in the PyTorch diagram below:
 
-{% file src="../../.gitbook/assets/pytorch diagram.pdf" %}
+{% file src="../../../.gitbook/assets/pytorch diagram.pdf" %}
 
 ## **To-do**
 
@@ -32,10 +31,7 @@ A visual overview of the workflow in the Colab notebook you can get in the PyTor
 
 {% embed url="https://www.youtube.com/watch?v=Uv0AIRr3ptg" %}
 
-2. Watch **Week 1** of the Coursera Course
-
-{% embed url="https://www.coursera.org/learn/machine-learning-duke" %}
-
+2. Watch all the videos on the next page - they are derived from a former Coursera Course
 3. Go for your **own** through the Colab Notebook above (Pytorch101) and try  to **understand and repeat** the steps for your own. Thereby you should also solve Task 1-3 in the notebook. You can create therefore a copy of the notebook in your Drive or download the notebook to work locally on it. Ensure that you sufficient computing resources available (i.e gpu) if you choose to work locally.
 
 😊😊
