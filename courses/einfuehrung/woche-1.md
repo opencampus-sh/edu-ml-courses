@@ -1,19 +1,19 @@
-# Woche 1 - Einführung in Data Science
+# Week 1 - Introduction to Data Science
 
-### Diese Woche werdet Ihr...
+### This week you will...
 
-eine Einführung zu den folgenden Themen bekommen:
+get an introduction to the following topics:
 
-* Was ist Data Science?&#x20;
+* What is data science?&#x20;
 * R vs. Python vs. SPSS vs. ...
 * Jupyter Notebooks
 
-### Lernressourcen
+### Learning Resources
 
 {% file src="../../.gitbook/assets/241024_Einführung.pdf" %}
 
-* [Leitfaden zu Markdown](https://colab.research.google.com/notebooks/markdown\_guide.ipynb)
-* [Übersicht über Colaboratory](https://colab.research.google.com/notebooks/basic\_features\_overview.ipynb)
+* [Leitfaden zu Markdown](https://colab.research.google.com/notebooks/markdown_guide.ipynb)
+* [Übersicht über Colaboratory](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
 * Wenn Ihr Schüler:in, Student:in oder Lehrkraft seid, könnt Ihr Euch wie [hier](https://www.youtube.com/watch?v=Wan3wtjyQJs) beschrieben gratis für GitHub Co-Pilot registrieren, das Ihr dann ggf. in VSCode, das wir uns in der nächsten Woche anschauen, integrieren könnt. Die Bezahlversion kostet aktuell 10 US-Dollar pro Monat.
 
 ### Bis zur nächsten Woche solltet Ihr...
@@ -25,7 +25,7 @@ eine Einführung zu den folgenden Themen bekommen:
 
 * [x] [diesen Video-Ausschnitt](https://www.youtube.com/watch?v=yE9v9rt6ziw\&list=PLTjRvDozrdlxj5wgH4qkvwSOdHLOCx10f\&index=3\&t=3073s) zum Arbeiten mit Zahlen ("Numbers" und "Working With Numbers") ansehen (5 Minuten).\
 
-* [x] die ersten vier Kapitel [dieses Videos](https://www.youtube.com/watch?v=u-OmVr\_fT4s\&list=PLTjRvDozrdlxj5wgH4qkvwSOdHLOCx10f\&index=8) zu Funktionen ansehen (12 Minuten).\
+* [x] die ersten vier Kapitel [dieses Videos](https://www.youtube.com/watch?v=u-OmVr_fT4s\&list=PLTjRvDozrdlxj5wgH4qkvwSOdHLOCx10f\&index=8) zu Funktionen ansehen (12 Minuten).\
 
 * [x] [dieses Video](https://www.youtube.com/watch?v=9OeznAkyQz4\&list=PLTjRvDozrdlxj5wgH4qkvwSOdHLOCx10f\&index=11) zum Arbeiten mit Listen in Python ansehen (18 Minuten).\
 
