@@ -40,9 +40,13 @@ PyTorch 303 (Lab 03)
 
 Go for your own through the Colab Notebook above (PyTorch303) and try to understand and repeat the steps for your own.
 
-Do Week 4 of the Coursera Course
 
-{% embed url="https://www.coursera.org/learn/machine-learning-duke" %}
+
+Watch the videos on the next page
+
+
+
+Go through the following notebooks and complete the second one (assignment notebook):
 
 {% embed url="https://colab.research.google.com/drive/171cV9ugdH1tki0-CCXJ6YQqoxHkjvFgs?usp=sharing" %}
 First notebook
