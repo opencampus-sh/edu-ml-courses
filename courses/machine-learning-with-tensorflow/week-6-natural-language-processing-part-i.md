@@ -1,4 +1,4 @@
-# Week 7 - Natural Language Processing, Part I
+# Week 7 - Working with Images using TorchVision
 
 ### This week you will...
 

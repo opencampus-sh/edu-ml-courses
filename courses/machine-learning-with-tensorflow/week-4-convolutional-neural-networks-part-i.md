@@ -1,4 +1,4 @@
-# Week 4 - Convolutional Neural Networks, Part I
+# Week 4 - Working with Text Using Hugging Face
 
 ### This week you will...
 

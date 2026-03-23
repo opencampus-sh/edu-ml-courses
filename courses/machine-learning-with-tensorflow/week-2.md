@@ -1,4 +1,4 @@
-# Week 2 - Introduction to TensorFlow,Part I
+# Week 2 - Introduction to PyTorch
 
 ### This week you will...
 

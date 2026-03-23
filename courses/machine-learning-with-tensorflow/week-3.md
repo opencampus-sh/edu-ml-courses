@@ -1,4 +1,4 @@
-# Week 3 - Introduction to TensorFlow,Part II
+# Week 3 - Data Management and Neural Network Components
 
 ### This week you will...
 

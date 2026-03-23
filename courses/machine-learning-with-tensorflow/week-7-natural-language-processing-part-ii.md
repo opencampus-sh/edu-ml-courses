@@ -1,4 +1,4 @@
-# Week 8 - Natural Language Processing, Part II
+# Week 8 - Efficient Training Pipelines
 
 ### This week you will...
 

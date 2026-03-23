@@ -1,4 +1,4 @@
-# Week 5 - Convolutional Neural Networks, Part II
+# Week 6 - Hyperparameter Optimization
 
 ### This week you will...
 
