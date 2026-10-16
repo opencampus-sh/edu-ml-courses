@@ -9,7 +9,7 @@
 
 {% file src="../../.gitbook/assets/260416_General Introduction.pdf" %}
 
-{% file src="../../.gitbook/assets/Guidlines for Presenting Assignments.pptx" %}
+{% file src="../../.gitbook/assets/Homework_presentation_template.pptx" %}
 
 * Video [Neural Networks Explained](https://www.youtube.com/watch?v=GvQwE2OhL8I) (12 minutes)
 * [Introductory course on Python](https://www.kaggle.com/learn/python) from Kaggle
@@ -22,4 +22,3 @@
 * think about project ideas to present in class next week (post your ideas in the chat during the week)
 * work your way through the the following notebook and complete the assignments:
   * [Assignment Notebook](https://colab.research.google.com/github/opencampus-sh/course-material/blob/main/applied-machine-learning/week-01/Week1_Notebook1_Ice_Cream_Sales.ipynb)
-

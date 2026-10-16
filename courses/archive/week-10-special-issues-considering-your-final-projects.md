@@ -7,10 +7,6 @@
 
 ### Learning Resources
 
-{% file src="../../.gitbook/assets/210119_What's next.pdf" %}
-Course Presentation
-{% endfile %}
-
 ### Until next week you should...
 
 * focus fully on your project again and prepare the project presentation for next week.
@@ -19,4 +15,3 @@ Course Presentation
 {% content-ref url="../../course-projects/requirements.md" %}
 [requirements.md](../../course-projects/requirements.md)
 {% endcontent-ref %}
-

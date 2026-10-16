@@ -7,9 +7,9 @@
 
 ### Learning Resources
 
-{% file src="../../../.gitbook/assets/251023_General Introduction.pdf" %}
+{% file src="../../../.gitbook/assets/250417_General Introduction.pdf" %}
 
-{% file src="../../../.gitbook/assets/Guidlines for Presenting Assignments.pptx" %}
+{% file src="../../../.gitbook/assets/Homework_presentation_template.pptx" %}
 
 * Video [Neural Networks Explained](https://www.youtube.com/watch?v=GvQwE2OhL8I) (12 minutes)
 * [Introductory course on Python](https://www.kaggle.com/learn/python) from Kaggle
@@ -29,4 +29,3 @@
 * Complete the two assignments given in the following notebooks:
   * [Assignment Notebook 1](https://colab.research.google.com/github/opencampus-sh/course-material/blob/main/machine-learning-with-tensorflow/week-01/Week1_Notebook1_Housing_Prices.ipynb)
   * [Assignment Notebook 2](https://colab.research.google.com/github/opencampus-sh/course-material/blob/main/machine-learning-with-tensorflow/week-01/Week1_Notebook2_Fashion_MNIST.ipynb)
-

@@ -7,10 +7,10 @@
 
 ### Learning Resources
 
-{% file src="../../../.gitbook/assets/250508_Introduction-to-TensorFlow-Part-II (1).pdf" %}
+{% file src="../../../.gitbook/assets/250508_Introduction-to-TensorFlow-Part-II.pdf" %}
 
 * [Cross Validation](https://alan-turing-institute.github.io/Intro-to-transparent-ML-course/05-cross-val-bootstrap/cross-validation.html) (StatQuest Video, 6 min)
-* [Bias and Variance (Overfitting)](https://www.youtube.com/watch?v=EuBBz3bI-aA) (StatQuest, 7 min)&#x20;
+* [Bias and Variance (Overfitting)](https://www.youtube.com/watch?v=EuBBz3bI-aA) (StatQuest, 7 min)
 * [Model Evaluation (Confusion Matrix)](https://www.youtube.com/live/Kdsp6soqA7o) (StatQuest, 7 min)
 * [Callback Functions in TensorFlow](https://www.youtube.com/watch?v=wkwtIeq9Ljo) (DigitalSreeni, 10 min)
 

@@ -2,17 +2,15 @@
 
 ### Diese Woche werdet Ihr...
 
-* Twitter ganz allgemein als tolle Resource für aktuelle Infos kennen lernen.&#x20;
+* Twitter ganz allgemein als tolle Resource für aktuelle Infos kennen lernen.
 * Explizit das 'Twitterlehrerzimmer' als tolle Quelle für deutschsprachigen Content zum Thema kennen lernen
 * Jan Vedder als einen 'Twitterlehrer' kennen lernen und seinen Online Kurs 'ChatGPT in der Schule' vorgestellt bekommen
 
 ### Lernressourcen
 
+{% file src="../../../.gitbook/assets/230427_LuLmKI - Jan Fedder.pdf" %}
 
-
-{% file src="../../../.gitbook/assets/230427_LuLmKI - Jan Fedder (2).pdf" %}
-
-{% file src="../../../.gitbook/assets/KI CHATGPT & SCHULE (1).pdf" %}
+{% file src="../../../.gitbook/assets/KI CHATGPT & SCHULE.pdf" %}
 
 ### Bis zur nächsten Woche solltet Ihr...
 
