@@ -2,7 +2,7 @@
 
 **Estimated workload:** about 6.5 hours (session 1.75 h, videos 1.7 h, tasks 3 h)
 
-**Question of the week (from Anna):** _On which weekdays should we bake more, and how sure can we be?_
+**Question of the week (from the operations manager):** _On which weekdays should we bake more, and how sure can we be?_
 
 **Canvas focus:** block 3 (Audiences) · **Skills:** `/to-memo`
 
@@ -20,7 +20,7 @@
 * [x] **Watch the videos** listed below (≈ 69 minutes) and post your questions in the Element course room by the day before the next session.
 
 {% hint style="info" %}
-**Deliverable for Anna:** a short memo (at most half a page) with one chart, an action title and three sentences with a recommendation for production planning per weekday.
+**Deliverable for the operations manager:** a short memo (at most half a page) with one chart, an action title and three sentences with a recommendation for production planning per weekday.
 {% endhint %}
 
 ### Videos and materials

@@ -2,7 +2,7 @@
 
 **Estimated workload:** about 9.7 hours (session 1.75 h, videos and exercises 2.9 h, tasks 5 h)
 
-**Question of the week (from Anna):** _What drives the bakery’s sales besides the weekday: weather, Kiel Week, season?_
+**Question of the week (from the operations manager):** _What drives the bakery’s sales besides the weekday: weather, Kiel Week, season?_
 
 **Canvas focus:** blocks 2 and 5 (Questions, Data) · **Skills:** `/setup-ds-project`, `/grill-question`, `/explore-data`
 
@@ -24,7 +24,7 @@ This week you form your **project team of three** and set up your team repositor
 * [x] **Watch the videos and do the exercises** listed below (≈ 2.3 hours).
 
 {% hint style="info" %}
-**Deliverable for Anna:** a one-page data fact sheet: which data you use, which period it covers, what is missing, and the first answers to your three hypotheses. Base it on block 5 of your canvas and the fact sheet from `/explore-data`.
+**Deliverable for the operations manager:** a one-page data fact sheet: which data you use, which period it covers, what is missing, and the first answers to your three hypotheses. Base it on block 5 of your canvas and the fact sheet from `/explore-data`.
 {% endhint %}
 
 ### Videos and materials

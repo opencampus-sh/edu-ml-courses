@@ -2,7 +2,7 @@
 
 **Estimated workload:** about 11.8 hours (session 1.75 h, presentation and repository 10 h)
 
-**Question of the week (from Anna):** _What should Anna do differently on Monday morning?_
+**Question of the week (from the operations manager):** _What should I do differently on Monday morning?_
 
 **Canvas focus:** block 11 (Recommendation) · **Skills:** `/ds-retro`
 
@@ -14,7 +14,7 @@
 
 ### Your presentation
 
-Prepare an **8 to 10-minute presentation** for Anna. Every team member presents a part. It includes:
+Prepare an **8 to 10-minute presentation** for the operations manager. Every team member presents a part. It includes:
 
 * your team members’ names on the title slide,
 * a list and short description of the variables you created,
@@ -32,7 +32,7 @@ Prepare an **8 to 10-minute presentation** for Anna. Every team member presents 
 * [x] **Run `/ds-retro`** after the presentation: which one or two changes would have saved your team the most time?
 
 {% hint style="info" %}
-**Deliverables:** the presentation for Anna (decision-maker), and the repository with README for the data team that would take over your project (technical audience).
+**Deliverables:** the presentation for the operations manager (decision-maker), and the repository with README for the data team that would take over your project (technical audience).
 {% endhint %}
 
 **Self-study:** lesson 7 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) covers `/to-memo` and `/ds-retro`.

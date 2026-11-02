@@ -2,7 +2,7 @@
 
 **Estimated workload:** about 8.3 hours (session 1.75 h, videos and readings 1.5 h, tasks 5 h)
 
-**Question of the week (from Anna):** _How would Anna know whether to trust a forecast before she uses it?_
+**Question of the week (from the operations manager):** _How would I know whether to trust a forecast before using it?_
 
 **Canvas focus:** blocks 4 and 8 (Success, Checks) · **Skills:** `data-checks`, `/review-results`, `/to-experiments`, `/implement-experiment`
 

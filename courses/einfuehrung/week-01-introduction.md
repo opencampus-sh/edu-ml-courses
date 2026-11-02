@@ -2,29 +2,29 @@
 
 **Estimated workload:** about 6.5 hours (session 1.75 h, videos 1.7 h, tasks 3 h)
 
-**Question of the week (from Anna):** _Should the bakery start selling its seasonal bread (product group 6) in October or only in November?_
+**Question of the week (from the operations manager):** _Should the bakery start selling its seasonal bread (product group 6) in October or only in November?_
 
 **Canvas focus:** blocks 1–4 (Problem) · **Skills:** `/setup-ds-project`, `/grill-question`
 
 ### This week you will ...
 
 * distinguish data science, machine learning, AI and AI agents, and relate them to everyday examples,
-* get to know the course structure, the flipped classroom format, the project and our client Anna,
+* get to know the course structure, the flipped classroom format, the project and our client, the bakery’s operations manager,
 * translate a real-life question into blocks 1–4 of the [Agentic Data Science Canvas](https://github.com/steffen74/agentic-data-science/tree/main/canvas),
 * use a coding agent to import data, compute descriptive statistics and run a first significance test.
 
 ### Until next week you should ...
 
 * [x] **Set up your practice repository:** run `/setup-ds-project` in your clone of the [template repository](https://github.com/opencampus-sh/repo-template-intro-to-data-science-and-ml).<br>
-* [x] **Sharpen Anna’s question before you code:** run `/grill-question` and type Anna’s question right after the command, for example\
-  `/grill-question Our client Anna asks: should the bakery start selling its seasonal bread (product group 6) in October or only in November?`\
+* [x] **Sharpen the question before you code:** run `/grill-question` and type the question right after the command, for example\
+  `/grill-question Our client, the bakery’s operations manager, asks: should the bakery start selling its seasonal bread (product group 6) in October or only in November?`\
   Answer the agent’s questions until blocks 1–4 of `CANVAS.md` are filled. Disagree with at least one of the agent’s recommended answers, and say why.<br>
 * [x] **Answer the question with the data:** use [`umsatzdaten_gekuerzt.csv`](https://github.com/opencampus-sh/intro-to-data-science-and-ml/tree/main/data/bakery) to find out when the seasonal bread was sold in past years, compare the average daily sales in October and November, and test whether they differ significantly.<br>
-* [x] **Check before you conclude:** let the agent generate the code, then ask it to explain each step and check the results for plausibility. What can the data tell Anna, and what not? (For example: on which October days was the bread actually sold?)<br>
+* [x] **Check before you conclude:** let the agent generate the code, then ask it to explain each step and check the results for plausibility. What can the data tell the operations manager, and what not? (For example: on which October days was the bread actually sold?)<br>
 * [x] **Watch the videos** listed below (≈ 69 minutes) and post your questions about them in the Element course room by the day before the next session.
 
 {% hint style="info" %}
-**Deliverable for Anna:** a three-sentence answer with one supporting number and a clear recommendation. Bring it to the next session; we discuss the answers in class.
+**Deliverable for the operations manager:** a three-sentence answer with one supporting number and a clear recommendation. Bring it to the next session; we discuss the answers in class.
 {% endhint %}
 
 ### Videos and materials

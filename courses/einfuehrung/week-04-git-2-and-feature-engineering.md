@@ -2,7 +2,7 @@
 
 **Estimated workload:** about 11.3 hours (session 1.75 h, videos and readings 1.5 h, tasks 8 h)
 
-**Question of the week (from Anna):** _What does Anna know the day before that could predict tomorrow’s sales?_
+**Question of the week (from the operations manager):** _What do we know the day before that could predict tomorrow’s sales?_
 
 **Canvas focus:** blocks 6 and 7 (Known in advance, Data decisions) · **Skills:** `leakage`, `/to-analysis-plan`
 
@@ -23,7 +23,7 @@
 * [x] **Watch the videos and do the readings** listed below (≈ 73 minutes).
 
 {% hint style="info" %}
-**Deliverable for Anna:** three findings about trends and seasonality, each with one chart and one sentence on what it means for production planning.
+**Deliverable for the operations manager:** three findings about trends and seasonality, each with one chart and one sentence on what it means for production planning.
 {% endhint %}
 
 ### Videos and materials

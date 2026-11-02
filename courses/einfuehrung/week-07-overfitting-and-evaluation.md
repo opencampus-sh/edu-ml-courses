@@ -2,7 +2,7 @@
 
 **Estimated workload:** about 11.6 hours (session 1.75 h, videos 1.8 h, tasks 8 h)
 
-**Question of the week (from Anna):** _Which forecast errors hurt the bakery more: leftover bread or sold-out shelves?_
+**Question of the week (from the operations manager):** _Which forecast errors hurt the bakery more: leftover bread or sold-out shelves?_
 
 **Canvas focus:** block 4 revisited (Success) · **Skills:** `/review-results`, `diagnose-surprise`
 
@@ -20,7 +20,7 @@
 * [x] **Watch the videos** listed below (≈ 73 minutes).
 
 {% hint style="info" %}
-**Deliverable for Anna:** one paragraph explaining which error measure you use and why it matches her costs.
+**Deliverable for the operations manager:** one paragraph explaining which error measure you use and why it matches the bakery’s costs.
 {% endhint %}
 
 ### Videos and materials

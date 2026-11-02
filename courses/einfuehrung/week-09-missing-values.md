@@ -2,7 +2,7 @@
 
 **Estimated workload:** about 14.1 hours (session 1.75 h, videos 0.3 h, tasks 12 h)
 
-**Question of the week (from Anna):** _On which days and for which products can Anna rely on the forecast, and where not?_
+**Question of the week (from the operations manager):** _On which days and for which products can I rely on the forecast, and where not?_
 
 **Canvas focus:** blocks 7 and 10 (Data decisions, Findings) · **Skills:** `/tidy-notebooks`, `/to-memo`
 
@@ -22,7 +22,7 @@
 * [x] **Watch the video** listed below (12 minutes).
 
 {% hint style="info" %}
-**Deliverable for Anna:** draft presentation slides following your storyline, plus an error analysis chart that shows Anna where she can trust the forecast.
+**Deliverable for the operations manager:** draft presentation slides following your storyline, plus an error analysis chart that shows the operations manager where the forecast can be trusted.
 {% endhint %}
 
 ### Videos and materials

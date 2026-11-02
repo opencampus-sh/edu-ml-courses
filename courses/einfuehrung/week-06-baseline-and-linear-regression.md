@@ -2,7 +2,7 @@
 
 **Estimated workload:** about 11.7 hours (session 1.75 h, videos 1.9 h, tasks 8 h)
 
-**Question of the week (from Anna):** _How much better than “same as last week” can we predict sales?_
+**Question of the week (from the operations manager):** _How much better than “same as last week” can we predict sales?_
 
 **Canvas focus:** blocks 4 and 9 (Success, Experiments) · **Skills:** `/implement-experiment`, `/review-results`, `/to-memo`
 
@@ -19,7 +19,7 @@
 * [x] **Watch the videos** listed below (≈ 77 minutes).
 
 {% hint style="info" %}
-**Deliverable for Anna:** your three-sentence explanation of the model, added to the README together with the scores of the baseline and the linear model.
+**Deliverable for the operations manager:** your three-sentence explanation of the model, added to the README together with the scores of the baseline and the linear model.
 {% endhint %}
 
 ### Videos and materials

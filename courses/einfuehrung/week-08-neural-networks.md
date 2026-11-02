@@ -2,7 +2,7 @@
 
 **Estimated workload:** about 13.8 hours (session 1.75 h, videos and exercises 2 h, tasks 10 h)
 
-**Question of the week (from Anna):** _Is a neural network worth the extra complexity compared with the linear model?_
+**Question of the week (from the operations manager):** _Is a neural network worth the extra complexity compared with the linear model?_
 
 **Canvas focus:** block 9 (Experiments) · **Skills:** `/implement-experiment`, `debug-training`
 
