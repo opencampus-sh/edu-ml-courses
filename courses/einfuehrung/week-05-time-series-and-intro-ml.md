@@ -45,7 +45,3 @@
 **Example code:** [time series predictions](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/05_time_series/time_series_predictions.ipynb).
 
 **Self-study:** lesson 5 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) covers the end-to-end baseline.
-
-### Optional
-
-* The practice lab “London housing prices – Regression with categorical data” (≈ 30 min).

@@ -105,6 +105,6 @@ _The videos use Claude Code. If you use Codex or Cursor, the concepts transfer d
 
 If you want to learn to write and review code yourself, the first two weeks of the course are the best time for it, since the workload is still light:
 
-* **Python track for beginners:** the remaining videos of [Python for Data Analytics, Module 1](https://learn.deeplearning.ai/specializations/data-analytics/) (≈ 55 min) plus the two "Air quality in New York City" code labs (≈ 2 h), about 5 hours in total.
+* **Python track for beginners:** the remaining videos of [Python for Data Analytics, Module 1](https://learn.deeplearning.ai/specializations/data-analytics/) (≈ 55 min).
 * **Alternative:** [AI Python for Beginners](https://learn.deeplearning.ai/courses/ai-python-for-beginners) by Andrew Ng (≈ 11.5 h).
 * **Never written any code?** [Build with Andrew](https://learn.deeplearning.ai/courses/build-with-andrew) (≈ 1 h) is a gentle first start.

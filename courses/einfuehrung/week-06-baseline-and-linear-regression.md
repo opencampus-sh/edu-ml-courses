@@ -41,4 +41,3 @@
 ### Optional
 
 * Supervised ML, W1: Visualizing the cost function (8 min), Gradient descent intuition (7 min), Gradient descent for linear regression (6 min).
-* The optional labs “Overfitting” and “Regularization” (≈ 1 hour each).

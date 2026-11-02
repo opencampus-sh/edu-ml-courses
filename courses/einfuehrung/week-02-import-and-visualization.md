@@ -52,4 +52,3 @@
 ### Optional
 
 * The remaining videos of Python for Data Analytics, Module 3: text and annotations, ticks and spines, stacked column charts, scatter plots, method chaining, themes and palettes, other charts, combining charts, looping with subplots, pairplots (≈ 35 min).
-* The practice labs “Buenos Aires Subway” (Module 2) and “Flight delays and cancellations” (Module 3), ≈ 30 min each.

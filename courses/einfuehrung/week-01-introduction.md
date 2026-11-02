@@ -52,5 +52,4 @@
 
 ### Optional
 
-* The practice notebooks of Python for Data Analytics, Module 2: “Practice with DataFrames” and “Dictionaries and NumPy arrays” (≈ 40 min).
 * Continue the Python track (see [Preparation](preparation.md#optional-python-track)).
