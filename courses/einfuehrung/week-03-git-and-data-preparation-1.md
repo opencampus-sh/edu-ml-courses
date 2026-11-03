@@ -17,6 +17,7 @@ This week you form your **project team of three** and set up your team repositor
 
 ### Until next week you should ...
 
+* [x] **Set up your team canvas:** copy one member’s week 1 `CANVAS.md` into your team repository, run `/setup-ds-project` (it keeps the existing canvas) and sharpen the canvas together with `/grill-question`.<br>
 * [x] **Finish `/explore-data`:** before reading its output, write down three guesses about the data and compare them with the results. Decide every open data decision as a team, record it in `DECISIONS.md`, and confirm the proposed checks.<br>
 * [x] **Analyse one hypothesis each:** every team member takes one hypothesis and analyses it with descriptive statistics and visualizations.<br>
 * [x] **Commit your work** to the team repository; everyone pushes at least once.<br>
