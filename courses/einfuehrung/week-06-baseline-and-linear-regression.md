@@ -14,6 +14,7 @@
 
 ### Until next week you should ...
 
+* [x] **Keep two baselines:** “same weekday last week” for the realistic next-day forecast, evaluated on your validation data, and a lag-free baseline (for example the average per product group, weekday and month) for the Kaggle submission, which covers a year without recent sales.<br>
 * [x] **Add further variables,** each as its own experiment card, reviewed with `/review-results` before it is adopted. Find a linear model that maximises the adjusted R² on the training data.<br>
 * [x] **Document the linear model** in the baseline model folder of your team repository.<br>
 * [x] **Watch the videos** listed below (≈ 77 minutes).

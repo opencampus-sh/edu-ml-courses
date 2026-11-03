@@ -14,7 +14,7 @@
 
 ### Until next week you should ...
 
-* [x] **Download the Kaggle test dataset** and merge it with your data.<br>
+* [x] **Download the Kaggle test dataset** and merge it with your data. The test year has no sales, so a model for the submission cannot use lagged sales; models with lags are evaluated on your validation data only.<br>
 * [x] **Build experiment card 1, the end-to-end baseline,** with `/implement-experiment`: watch the new checks go red before they go green, and read the log entry it writes. Commit only what passes the checks.<br>
 * [x] **Watch the videos and do the readings** listed below (≈ 68 minutes).
 

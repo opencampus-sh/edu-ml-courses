@@ -6,7 +6,7 @@ In this course you learn to answer real questions with data, working with a codi
 
 * **Flipped classroom:** you watch short videos and do readings _before_ each session. The sessions start with a short video check (a quiz and your questions), followed by a short input and mostly group and project work.
 * **A client with real questions:** every week starts with a question from the operations manager of a bakery in Kiel (a fictional client based on the course data). Each week you prepare a short answer for the operations manager, such as a memo or a chart, and discuss it in class. Nothing to hand in until the final project.
-* **The team project:** from week 3, your team forecasts the daily sales of a bakery branch per product group, using sales, weather and Kiel Week data, and competes in a Kaggle competition.
+* **The team project:** from week 3, your team forecasts the daily sales of a bakery branch per product group, using sales, weather and Kiel Week data, and competes in a Kaggle competition. The realistic task is the next-day forecast; the competition scores a simplified variant, a whole year ahead without that year’s sales.
 * **A canvas and agent skills:** your project follows the [Agentic Data Science Canvas](https://github.com/steffen74/agentic-data-science). Agent skills such as `/grill-question` guide your coding agent through it and keep every decision with your team.
 * **Your own laptop:** you work locally with VS Code (or Cursor), Git, uv and a coding agent. GitHub Codespaces are the fallback.
 
