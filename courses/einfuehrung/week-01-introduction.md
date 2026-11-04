@@ -2,18 +2,17 @@
 
 **Estimated workload:** about 6.5 hours (session 1.75 h, videos with notes 1.7 h, tasks 3 h)
 
-**Project question (for your team, from week 3):** _How much of each product group should we bake for tomorrow?_
+**Question of the week (from the operations manager):** _Should the bakery start selling its seasonal bread (product group 6) in October or only in November?_
 
-**Question of the week (from the operations manager, for your practice canvas and the data):** _Should the bakery start selling its seasonal bread (product group 6) in October or only in November?_
-
-**Canvas focus:** blocks 1–4 (Problem) for the question of the week · **Skills:** `/setup-ds-project`, `/grill-question`
+**Canvas focus:** blocks 1–4 (Problem) · **Skills:** `/setup-ds-project`, `/grill-question`
 
 ### This week you will ...
 
 * distinguish data science, machine learning, AI and AI agents, and relate them to everyday examples,
-* get to know the course structure, the flipped classroom format, the project and our client, the bakery’s operations manager,
-* translate a decision of the operations manager into blocks 1–4 of the [Agentic Data Science Canvas](https://github.com/steffen74/agentic-data-science/tree/main/canvas),
-* use a coding agent to import data, compute descriptive statistics and run a first significance test.
+* get to know the course structure, the flipped classroom format and our client, the bakery’s operations manager,
+* get to know the team project and its question, _how much of each product group should we bake for tomorrow?_, which your team takes on from week 3,
+* practise the [Agentic Data Science Canvas](https://github.com/steffen74/agentic-data-science/tree/main/canvas) on the question of the week: turn the manager’s decision into blocks 1–4,
+* use a coding agent to answer the question of the week with data: import it, compute descriptive statistics and run a first significance test.
 
 ### Until next week you should ...
 
@@ -37,7 +36,7 @@
 
   Answer the agent’s questions until blocks 1–4 of `CANVAS.md` are filled; when it asks about block 6 (what is known in advance), accept its recommendation. Disagree with at least one of the agent’s recommended answers, and say why: for example, when the decision has to be made, or what would make an earlier start worth it. This canvas is for practice: in week 3 your team starts a fresh repository and a new canvas for the project question.<br>
 * [x] **Watch the three t-test videos first** (Python for Data Analytics, M4, 15 minutes, at the end of the table below): you need them for the next task.<br>
-* [x] **Answer the question of the week with the data:** in your practice repository, ask your agent to create the notebook `week-01-seasonal-bread.ipynb` and to load [`umsatzdaten_gekuerzt.csv`](https://raw.githubusercontent.com/opencampus-sh/intro-to-data-science-and-ml/main/data/bakery/umsatzdaten_gekuerzt.csv) from its URL (the URL is also in the repository’s `AGENTS.md`). Find out when the seasonal bread (product group 6) was sold in past years, compare the average daily sales in October and November, and test with Welch’s t-test, as in the [example notebook](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/01_introduction/temperature_comparison_july_may.ipynb), whether they differ significantly.<br>
+* [x] **Answer the question of the week with the data:** in your practice repository, ask your agent to create a new, empty notebook called `week-01-seasonal-bread.ipynb` (it does not exist yet; you and the agent fill it) and to load [`umsatzdaten_gekuerzt.csv`](https://raw.githubusercontent.com/opencampus-sh/intro-to-data-science-and-ml/main/data/bakery/umsatzdaten_gekuerzt.csv) from its URL (the URL is also in the repository’s `AGENTS.md`). Find out when the seasonal bread (product group 6) was sold in past years, compare the average daily sales in October and November, and test with Welch’s t-test, as in the [example notebook](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/01_introduction/temperature_comparison_july_may.ipynb), whether they differ significantly.<br>
 * [x] **Check before you conclude:** let the agent generate the code, then ask it to explain each step and check the results for plausibility. What can the data tell the operations manager, and what not? (For example: on which October days was the bread actually sold?)<br>
 * [x] **Watch the other videos** listed below (≈ 54 minutes) and post your questions about them in the Element course room by the day before the next session.
 
