@@ -1,6 +1,6 @@
 # Introduction to Data Science and Machine Learning
 
-In this course you learn to answer real questions with data, working with a coding agent: from a first question to a tested forecast model and a recommendation that someone can act on. **5 ECTS** · 10 sessions of 105 minutes · team project in teams of three.
+In this course you learn to answer real questions with data, working with a coding agent: from a first question to a tested forecast model and a recommendation that someone can act on. **5 ECTS** · 10 sessions of 105 minutes · team project in teams of three or four.
 
 ### How the course works
 

@@ -6,7 +6,7 @@
 
 **Canvas focus:** blocks 2 and 5 (Questions, Data) · **Skills:** `/setup-ds-project`, `/grill-question`, `/explore-data`
 
-This week you form your **project team of three** and set up your team repository.
+This week you form your **project team of three or four** and set up your team repository.
 
 ### This week you will ...
 

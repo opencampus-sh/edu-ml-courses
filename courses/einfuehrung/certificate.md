@@ -19,7 +19,7 @@ Online attendance is only accredited if you have your camera on, participate wit
 
 ### Your team project on EduHub
 
-From week 3 you work in a team of three. EduHub manages each team project as one project with several authors. You can be an accepted author on only one active project per course.
+From week 3 you work in a team of three or four. EduHub manages each team project as one project with several authors. You can be an accepted author on only one active project per course.
 
 | Step | Who | What to do on EduHub | Week |
 | --- | --- | --- | --- |

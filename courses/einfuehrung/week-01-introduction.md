@@ -1,6 +1,6 @@
 # Week 1 – Introduction to Data Science
 
-**Estimated workload:** about 6.5 hours (session 1.75 h, videos 1.7 h, tasks 3 h)
+**Estimated workload:** about 6.5 hours (session 1.75 h, videos with notes 1.7 h, tasks 3 h)
 
 **Project question (for your canvas):** _How much of each product group should we bake for tomorrow?_
 
@@ -17,16 +17,32 @@
 
 ### Until next week you should ...
 
-* [x] **Set up your practice repository:** run `/setup-ds-project` in your clone of the [template repository](https://github.com/opencampus-sh/repo-template-intro-to-data-science-and-ml).<br>
-* [x] **Sharpen the project question:** run `/grill-question` and type the project question right after the command:\
-  `/grill-question Our client, the bakery’s operations manager, asks: how much of each product group should we bake for tomorrow?`\
-  Answer the agent’s questions until blocks 1–4 of `CANVAS.md` are filled. Your team will build on this canvas from week 3. Disagree with at least one of the agent’s recommended answers, and say why.<br>
-* [x] **Answer the question of the week with the data:** use [`umsatzdaten_gekuerzt.csv`](https://github.com/opencampus-sh/intro-to-data-science-and-ml/tree/main/data/bakery) to find out when the seasonal bread was sold in past years, compare the average daily sales in October and November, and test whether they differ significantly.<br>
+* [x] **Get your practice repository:** in VS Code, click _Clone Git Repository…_ as in the [Preparation](preparation.md), paste `https://github.com/opencampus-sh/repo-template-intro-to-data-science-and-ml` and choose a folder **next to** your course resources folder, not inside it. Open the new folder in VS Code and start your agent there. This copy of the [template repository](https://github.com/opencampus-sh/repo-template-intro-to-data-science-and-ml) stays on your laptop: you do not need your own GitHub repository or any commits until your team starts in week 3.<br>
+* [x] **Load the course skills** (once, in the practice repository):
+  * **Claude Code:** when Claude Code asks whether you trust this folder, answer **Yes** (and make sure VS Code is not in _Restricted Mode_). The skills then load by themselves: type `/setup` and `setup-ds-project` appears in the menu. If it does not, restart Claude Code; if it still does not appear, post in the Element course room.
+  * **Codex, Copilot, Cursor or another agent:** install [Node.js](https://nodejs.org/) (the LTS version) and restart VS Code. Then paste this prompt into your agent and approve the command:
+
+    ```
+    Run this command in the current folder (on Windows, use npx.cmd instead of npx):
+    npx skills@latest add steffen74/agentic-data-science --skill '*' --agent codex -y
+    ```
+
+    If you use Copilot or Cursor, replace `--agent codex` with `--agent '*'`. In Codex, you start a skill with `$` instead of `/` (for example `$setup-ds-project`), or pick it from `/skills`.<br>
+* [x] **Set up your practice repository:** run `/setup-ds-project`. The agent asks a few questions, each with a recommended answer. This week, answer: issue tracker **local files**; checks **accept the recommendation**; project name **practice**, team **only you** (teams form in week 3). Approve when it wants to run `uv sync` or add a package. If it offers to commit, say no: Git comes in week 3. You are done when the folder contains `CANVAS.md`, `GLOSSARY.md`, `DECISIONS.md` and a `checks/` folder.<br>
+* [x] **Sharpen the project question:** run `/grill-question` with the project question right after the command:
+
+  ```
+  /grill-question Our client, the bakery’s operations manager, asks: how much of each product group should we bake for tomorrow?
+  ```
+
+  Answer the agent’s questions until blocks 1–4 of `CANVAS.md` are filled. When the agent goes on to block 6 (what is known in advance) or asks about error metrics and baselines, answer “Park this as an open question”: these come in weeks 4–7. Disagree with at least one of the agent’s recommended answers, and say why: for example, when the manager decides, or whether two product groups belong together. Your team will build on this canvas from week 3.<br>
+* [x] **Watch the three t-test videos first** (Python for Data Analytics, M4, 15 minutes, at the end of the table below): you need them for the next task.<br>
+* [x] **Answer the question of the week with the data:** in your practice repository, ask your agent to create the notebook `week-01-seasonal-bread.ipynb` and to load [`umsatzdaten_gekuerzt.csv`](https://raw.githubusercontent.com/opencampus-sh/intro-to-data-science-and-ml/main/data/bakery/umsatzdaten_gekuerzt.csv) from its URL (the URL is also in the repository’s `AGENTS.md`). Find out when the seasonal bread (product group 6) was sold in past years, compare the average daily sales in October and November, and test with Welch’s t-test, as in the [example notebook](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/01_introduction/temperature_comparison_july_may.ipynb), whether they differ significantly.<br>
 * [x] **Check before you conclude:** let the agent generate the code, then ask it to explain each step and check the results for plausibility. What can the data tell the operations manager, and what not? (For example: on which October days was the bread actually sold?)<br>
-* [x] **Watch the videos** listed below (≈ 69 minutes) and post your questions about them in the Element course room by the day before the next session.
+* [x] **Watch the other videos** listed below (≈ 54 minutes) and post your questions about them in the Element course room by the day before the next session.
 
 {% hint style="info" %}
-**Deliverable for the operations manager:** a three-sentence answer with one supporting number and a clear recommendation. Bring it to the next session; we discuss the answers in class.
+**Deliverable for the operations manager:** a short answer of three or four sentences with one supporting number, a clear recommendation and what the data cannot tell. Write it in the last Markdown cell of your notebook and bring it to the next session; we discuss the answers in class.
 {% endhint %}
 
 ### Videos and materials
@@ -50,7 +66,7 @@
 
 **Example code:** [comparing average temperatures in July and May](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/01_introduction/temperature_comparison_july_may.ipynb) (import, descriptive statistics and a t-test).
 
-**Self-study:** lessons 1 and 2 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) explain the canvas and `/grill-question` step by step.
+**Self-study:** lessons 1 and 2 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) explain the canvas and `/grill-question` step by step. In your practice repository the skills are already set up: skip the install step in lesson 1.
 
 ### Optional
 
