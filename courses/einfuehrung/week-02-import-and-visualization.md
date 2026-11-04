@@ -4,7 +4,7 @@
 
 **Question of the week (from the operations manager):** _On which weekdays should we bake more, and how sure can we be?_
 
-**Canvas focus:** block 3 (Audiences) · **Skills:** `/to-memo`
+**Canvas focus:** block 3 (Audiences) · **Skills:** `audience` (loaded by the agent when it writes for a reader)
 
 ### This week you will ...
 
@@ -16,7 +16,13 @@
 
 * [x] **Finish the product group analysis** from the session: one chart per product group or one combined chart.<br>
 * [x] **Clean up the notebook** with the agent so that someone else can run it from top to bottom.<br>
-* [x] **Draft the memo** with `/to-memo` (decision memo), then rewrite it yourself: the action title and the recommendation are yours.<br>
+* [x] **Draft the memo** in your practice repository: paste this prompt into your agent, then rewrite the draft yourself. The action title and the recommendation are yours.
+
+  ```
+  Draft a decision memo for the operations manager from my weekday analysis in this notebook. Follow the audience skill: an action title that states the conclusion, the answer first, at most three rounded numbers, how sure we can be, and one thing the data cannot tell. At most half a page, no jargon.
+  ```
+
+  (`/to-memo`, the skill that turns checked results into a memo, comes in week 6.)<br>
 * [x] **Watch the videos** listed below (≈ 69 minutes) and post your questions in the Element course room by the day before the next session.
 
 {% hint style="info" %}
