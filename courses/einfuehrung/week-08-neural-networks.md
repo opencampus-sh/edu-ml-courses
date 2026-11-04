@@ -26,6 +26,8 @@
 
 ### Videos and materials
 
+**Example code:** [data preparation for a neural network](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/08_neural_networks/neural_net_data_preparation.ipynb), [estimating a neural network](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/08_neural_networks/neural_net_estimation.ipynb) and [the same with dropout](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/08_neural_networks/neural_net_estimation_with_dropout.ipynb).
+
 | Lesson / material | Source | Min |
 | --- | --- | --- |
 | [Dropout layers](https://www.youtube.com/watch?v=ARq74QuavAo) | YouTube | 7 |
@@ -35,8 +37,6 @@
 | [Error analysis](https://learn.deeplearning.ai/specializations/machine-learning/lesson/hvdzc/error-analysis) | Advanced Learning Algorithms, W3 | 8 |
 | [Dealing with Missing Data in Python](https://campus.datacamp.com/courses/dealing-with-missing-data-in-python/), chapter 1 (interactive) | DataCamp | 60 |
 | **Total** | | **101** |
-
-**Example code:** [data preparation for a neural network](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/08_neural_networks/neural_net_data_preparation.ipynb), [estimating a neural network](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/08_neural_networks/neural_net_estimation.ipynb) and [the same with dropout](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/08_neural_networks/neural_net_estimation_with_dropout.ipynb).
 
 ### Optional
 

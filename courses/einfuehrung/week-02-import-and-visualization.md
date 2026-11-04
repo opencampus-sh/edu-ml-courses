@@ -25,6 +25,8 @@
 
 ### Videos and materials
 
+**Example code:** [example plots](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/02_visualization/example_plots.ipynb) for the bakery data.
+
 | Lesson / material | Source | Min |
 | --- | --- | --- |
 | [Sorting](https://learn.deeplearning.ai/specializations/data-analytics/lesson/tm2ng/sorting) | Python for Data Analytics, M2 | 2 |
@@ -46,8 +48,6 @@
 | [Matplotlib subplots](https://learn.deeplearning.ai/specializations/data-analytics/lesson/l39lj/matplotlib-subplots) | Python for Data Analytics, M3 | 4 |
 | [Relevance of confidence intervals](https://www.youtube.com/watch?v=tFWsuO9f74o) | YouTube | 4 |
 | **Total** | | **69** |
-
-**Example code:** [example plots](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/02_visualization/example_plots.ipynb) for the bakery data.
 
 ### Optional
 

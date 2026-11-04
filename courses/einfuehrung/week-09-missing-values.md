@@ -27,12 +27,12 @@
 
 ### Videos and materials
 
+**Example code:** [missing value imputation](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/09_missing_values/missing_value_imputation.ipynb) and [evaluating an imputation](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/09_missing_values/imputation_evaluation.ipynb).
+
 | Lesson / material | Source | Min |
 | --- | --- | --- |
 | [Refactoring a Jupyter Notebook & Creating a Dashboard](https://learn.deeplearning.ai/courses/claude-code-a-highly-agentic-coding-assistant/lesson/33kzr/refactoring-a-jupyter-notebook-%26-creating-a-dashboard) | Claude Code course | 12 |
 | **Total** | | **12** |
-
-**Example code:** [missing value imputation](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/09_missing_values/missing_value_imputation.ipynb) and [evaluating an imputation](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/09_missing_values/imputation_evaluation.ipynb).
 
 ### Optional
 

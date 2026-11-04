@@ -30,6 +30,8 @@ This week you form your **project team of three or four** and set up your team r
 
 ### Videos and materials
 
+**Self-study:** lesson 3 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) covers `/explore-data`.
+
 | Lesson / material | Source | Min |
 | --- | --- | --- |
 | [Git in VS Code](https://www.youtube.com/watch?v=7fIP5aM6hyc) | YouTube | 33 |
@@ -48,8 +50,6 @@ This week you form your **project team of three or four** and set up your team r
 | **Total** | | **138** |
 
 _In your team repository, `CANVAS.md` and the section that `/setup-ds-project` writes into `AGENTS.md` play the role of the “constitution” from the Spec-Driven Development videos._
-
-**Self-study:** lesson 3 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) covers `/explore-data`.
 
 ### Optional
 

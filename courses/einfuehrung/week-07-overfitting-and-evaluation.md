@@ -25,6 +25,10 @@
 
 ### Videos and materials
 
+**Example code:** [the effect of overfitting and regularization](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/07_overfitting/overfitting.ipynb). To try out small neural networks in the browser: [TensorFlow Playground](https://playground.tensorflow.org/).
+
+**Self-study:** lesson 6 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) covers `/review-results` and `diagnose-surprise`.
+
 | Lesson / material | Source | Min |
 | --- | --- | --- |
 | [Welcome!](https://learn.deeplearning.ai/specializations/machine-learning/lesson/uyfti/welcome!) | Advanced Learning Algorithms, W1 | 2 |
@@ -37,10 +41,6 @@
 | [Choosing activation functions](https://learn.deeplearning.ai/specializations/machine-learning/lesson/v1drv/choosing-activation-functions) | Advanced Learning Algorithms, W2 | 8 |
 | [Advanced Optimization (Adam)](https://learn.deeplearning.ai/specializations/machine-learning/lesson/qj0t1/advanced-optimization) | Advanced Learning Algorithms, W2 | 6 |
 | **Total** | | **73** |
-
-**Example code:** [the effect of overfitting and regularization](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/07_overfitting/overfitting.ipynb). To try out small neural networks in the browser: [TensorFlow Playground](https://playground.tensorflow.org/).
-
-**Self-study:** lesson 6 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) covers `/review-results` and `diagnose-surprise`.
 
 ### Optional
 

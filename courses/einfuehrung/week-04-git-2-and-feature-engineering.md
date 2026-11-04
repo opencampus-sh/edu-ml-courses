@@ -28,6 +28,8 @@
 
 ### Videos and materials
 
+**Self-study:** lesson 4 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) covers `/to-analysis-plan`.
+
 | Lesson / material | Source | Min |
 | --- | --- | --- |
 | [DateTimes](https://learn.deeplearning.ai/specializations/data-analytics/lesson/yt06e/datetimes) | Python for Data Analytics, M5 | 5 |
@@ -42,8 +44,6 @@
 | [Word Representation](https://learn.deeplearning.ai/specializations/deep-learning/lesson/pqt4m/word-representation) | Deep Learning Specialization, C5 W2 | 10 |
 | [Embedding Matrix](https://learn.deeplearning.ai/specializations/deep-learning/lesson/r4twj/embedding-matrix) | Deep Learning Specialization, C5 W2 | 3 |
 | **Total** | | **73** |
-
-**Self-study:** lesson 4 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) covers `/to-analysis-plan`.
 
 ### Optional
 

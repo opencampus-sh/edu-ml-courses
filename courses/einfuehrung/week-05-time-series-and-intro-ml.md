@@ -24,6 +24,10 @@
 
 ### Videos and materials
 
+**Example code:** [time series predictions](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/05_time_series/time_series_predictions.ipynb).
+
+**Self-study:** lesson 5 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) covers the end-to-end baseline.
+
 | Lesson / material | Source | Min |
 | --- | --- | --- |
 | [What is linear regression?](https://learn.deeplearning.ai/specializations/data-analytics/lesson/d211v/what-is-linear-regression%3F) | Python for Data Analytics, M4 | 6 |
@@ -42,6 +46,3 @@
 | [Interaction features](https://learn.deeplearning.ai/specializations/data-analytics/lesson/xuh1n/interaction-features) (reading) | Python for Data Analytics, M4 | 10 |
 | **Total** | | **68** |
 
-**Example code:** [time series predictions](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/05_time_series/time_series_predictions.ipynb).
-
-**Self-study:** lesson 5 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) covers the end-to-end baseline.

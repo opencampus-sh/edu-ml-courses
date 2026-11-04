@@ -25,6 +25,8 @@
 
 ### Videos and materials
 
+**Example code:** [linear regression with statsmodels](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/06_linear_regression/linear_regression_ols.ipynb) and [interaction effects](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/06_linear_regression/interaction_effect.ipynb).
+
 | Lesson / material | Source | Min |
 | --- | --- | --- |
 | [Cost function formula](https://learn.deeplearning.ai/specializations/machine-learning/lesson/qormh/cost-function-formula) | Supervised ML: Regression and Classification, W1 | 9 |
@@ -36,8 +38,6 @@
 | [Cost function with regularization](https://learn.deeplearning.ai/specializations/machine-learning/lesson/hoqqk/cost-function-with-regularization) | Supervised ML: Regression and Classification, W3 | 9 |
 | [Regularized linear regression](https://learn.deeplearning.ai/specializations/machine-learning/lesson/taxej/regularized-linear-regression) | Supervised ML: Regression and Classification, W3 | 8 |
 | **Total** | | **77** |
-
-**Example code:** [linear regression with statsmodels](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/06_linear_regression/linear_regression_ols.ipynb) and [interaction effects](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/06_linear_regression/interaction_effect.ipynb).
 
 ### Optional
 
