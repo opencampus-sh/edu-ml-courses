@@ -64,6 +64,8 @@
 | [Two-sample t-tests](https://learn.deeplearning.ai/specializations/data-analytics/lesson/yi6xo/two-sample-t-tests) | Python for Data Analytics, M4 | 4 |
 | **Total** | | **69** |
 
+**Slides:** [session 1 slides (PDF)](../../.gitbook/assets/intro-ds-week-01-slides.pdf)
+
 **Example code:** [comparing average temperatures in July and May](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/01_introduction/temperature_comparison_july_may.ipynb) (import, descriptive statistics and a t-test).
 
 **Self-study:** lessons 1 and 2 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) explain the canvas and `/grill-question` step by step. In your practice repository the skills are already set up: skip the install step in lesson 1.
