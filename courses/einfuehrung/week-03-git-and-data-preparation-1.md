@@ -17,7 +17,7 @@ This week you form your **project team of three or four** and set up your team r
 
 ### Until next week you should ...
 
-* [x] **Set up your team canvas:** copy one member’s week 1 `CANVAS.md` into your team repository, run `/setup-ds-project` (it keeps the existing canvas) and sharpen the canvas together with `/grill-question`.<br>
+* [x] **Set up your team canvas:** in your new team repository, run `/setup-ds-project`, then `/grill-question` with the project question (_How much of each product group should we bake for tomorrow?_) and answer each round together until blocks 1–4 are filled. Your week 1 practice repository is not carried over; use what you learned there, not its files.<br>
 * [x] **Finish `/explore-data`:** before reading its output, write down three guesses about the data and compare them with the results. Decide every open data decision as a team, record it in `DECISIONS.md`, and confirm the proposed checks.<br>
 * [x] **Analyse one hypothesis each:** every team member takes one hypothesis and analyses it with descriptive statistics and visualizations.<br>
 * [x] **Commit your work** to the team repository; everyone pushes at least once.<br>

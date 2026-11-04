@@ -2,17 +2,17 @@
 
 **Estimated workload:** about 6.5 hours (session 1.75 h, videos with notes 1.7 h, tasks 3 h)
 
-**Project question (for your canvas):** _How much of each product group should we bake for tomorrow?_
+**Project question (for your team, from week 3):** _How much of each product group should we bake for tomorrow?_
 
-**Question of the week (from the operations manager):** _Should the bakery start selling its seasonal bread (product group 6) in October or only in November?_
+**Question of the week (from the operations manager, for your practice canvas and the data):** _Should the bakery start selling its seasonal bread (product group 6) in October or only in November?_
 
-**Canvas focus:** blocks 1–4 (Problem) for the project question · **Skills:** `/setup-ds-project`, `/grill-question`
+**Canvas focus:** blocks 1–4 (Problem) for the question of the week · **Skills:** `/setup-ds-project`, `/grill-question`
 
 ### This week you will ...
 
 * distinguish data science, machine learning, AI and AI agents, and relate them to everyday examples,
 * get to know the course structure, the flipped classroom format, the project and our client, the bakery’s operations manager,
-* translate the project decision into blocks 1–4 of the [Agentic Data Science Canvas](https://github.com/steffen74/agentic-data-science/tree/main/canvas),
+* translate a decision of the operations manager into blocks 1–4 of the [Agentic Data Science Canvas](https://github.com/steffen74/agentic-data-science/tree/main/canvas),
 * use a coding agent to import data, compute descriptive statistics and run a first significance test.
 
 ### Until next week you should ...
@@ -29,13 +29,13 @@
 
     If you use Copilot or Cursor, replace `--agent codex` with `--agent '*'`. In Codex, you start a skill with `$` instead of `/` (for example `$setup-ds-project`), or pick it from `/skills`.<br>
 * [x] **Set up your practice repository:** run `/setup-ds-project`. The agent asks a few questions, each with a recommended answer. This week, answer: issue tracker **local files**; checks **accept the recommendation**; project name **practice**, team **only you** (teams form in week 3). Approve when it wants to run `uv sync` or add a package. If it offers to commit, say no: Git comes in week 3. You are done when the folder contains `CANVAS.md`, `GLOSSARY.md`, `DECISIONS.md` and a `checks/` folder.<br>
-* [x] **Sharpen the project question:** run `/grill-question` with the project question right after the command:
+* [x] **Sharpen the question of the week:** run `/grill-question` with the question right after the command:
 
   ```
-  /grill-question Our client, the bakery’s operations manager, asks: how much of each product group should we bake for tomorrow?
+  /grill-question Our client, the bakery’s operations manager, asks: should we start selling our seasonal bread in October or only in November?
   ```
 
-  Answer the agent’s questions until blocks 1–4 of `CANVAS.md` are filled. When the agent goes on to block 6 (what is known in advance) or asks about error metrics and baselines, answer “Park this as an open question”: these come in weeks 4–7. Disagree with at least one of the agent’s recommended answers, and say why: for example, when the manager decides, or whether two product groups belong together. Your team will build on this canvas from week 3.<br>
+  Answer the agent’s questions until blocks 1–4 of `CANVAS.md` are filled; when it asks about block 6 (what is known in advance), accept its recommendation. Disagree with at least one of the agent’s recommended answers, and say why: for example, when the decision has to be made, or what would make an earlier start worth it. This canvas is for practice: in week 3 your team starts a fresh repository and a new canvas for the project question.<br>
 * [x] **Watch the three t-test videos first** (Python for Data Analytics, M4, 15 minutes, at the end of the table below): you need them for the next task.<br>
 * [x] **Answer the question of the week with the data:** in your practice repository, ask your agent to create the notebook `week-01-seasonal-bread.ipynb` and to load [`umsatzdaten_gekuerzt.csv`](https://raw.githubusercontent.com/opencampus-sh/intro-to-data-science-and-ml/main/data/bakery/umsatzdaten_gekuerzt.csv) from its URL (the URL is also in the repository’s `AGENTS.md`). Find out when the seasonal bread (product group 6) was sold in past years, compare the average daily sales in October and November, and test with Welch’s t-test, as in the [example notebook](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/01_introduction/temperature_comparison_july_may.ipynb), whether they differ significantly.<br>
 * [x] **Check before you conclude:** let the agent generate the code, then ask it to explain each step and check the results for plausibility. What can the data tell the operations manager, and what not? (For example: on which October days was the bread actually sold?)<br>
