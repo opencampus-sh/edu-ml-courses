@@ -37,7 +37,7 @@
   ```
 
   You are done when _Restart_ and then _Run All_ (both in the notebook toolbar) run without errors and show the same charts. Do not use `/tidy-notebooks`: it splits notebooks into modules and comes in week 9.<br>
-* [x] **Draft the memo** (≈ 1 hour): paste this prompt into your agent (in Codex, write `$audience` instead of “the audience skill”), then rewrite the draft yourself. The action title and the recommendation are yours.
+* [x] **Draft the memo** (≈ 1 hour). First update the course skills: in Codex, Copilot, Cursor or another agent, paste the install prompt from [week 1](week-01-introduction.md) into your agent again; Claude Code updates them when you restart it. Then paste this prompt into your agent (in Codex, write `$audience` instead of “the audience skill”) and rewrite the draft yourself. The action title and the recommendation are yours.
 
   ```
   Draft a decision memo for the operations manager from my weekday analysis in week-02-weekdays.ipynb. Follow the audience skill: an action title that states the conclusion, the answer first, at most three rounded numbers, how sure we can be, and one thing the data cannot tell. The data has no currency, so compare instead (for example "twice as much as on ..."). Include the one chart that supports the recommendation, saved as week-02-weekdays.png. Write the memo to week-02-memo.md: at most half a page, no jargon.
