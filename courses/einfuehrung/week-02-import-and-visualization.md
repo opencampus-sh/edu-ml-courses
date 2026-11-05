@@ -54,6 +54,8 @@
 
 ### Videos and materials
 
+**Slides:** [session 2 slides (PDF)](../../.gitbook/assets/intro-ds-week-02-slides.pdf)
+
 **Example code:** [example plots](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/02_visualization/example_plots.ipynb) with seaborn’s car data (`mpg`): a histogram, a bar chart with confidence intervals (the black lines), scatter plots and subplots you can reuse for the bakery data.
 
 | Lesson / material | Source | Min |
