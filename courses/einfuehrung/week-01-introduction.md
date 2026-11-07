@@ -21,9 +21,11 @@
 
 * [x] **Clone the practice repository.** In VS Code, click _Clone Git Repository…_ (as in the [Preparation](preparation.md)) and paste:
 
+  {% code overflow="wrap" %}
   ```
   https://github.com/opencampus-sh/repo-template-intro-to-data-science-and-ml
   ```
+  {% endcode %}
 
   Choose a folder **next to** your course resources folder (the `intro-to-data-science-and-ml` folder from the Preparation), not inside it.
 * [x] **Open the new folder** in VS Code (_File → Open Folder…_) and open your agent’s panel there (for example the Claude Code or Codex icon in the side bar).
