@@ -1,7 +1,5 @@
 # Week 4 – Versioning with Git (Part 2) and Feature Engineering
 
-**Estimated workload:** about 11.3 hours (session 1.75 h, videos and readings 1.5 h, tasks 8 h)
-
 **Question of the week (from the operations manager):** _What do we know the day before that could predict tomorrow’s sales?_
 
 **Canvas focus:** blocks 6 and 7 (Known in advance, Data decisions) · **Skills:** `leakage`, `/to-analysis-plan`
@@ -13,7 +11,7 @@
 * distinguish features known in advance from features only known afterwards (a first look at data leakage),
 * apply feature engineering: binning, joining categories, interaction effects.
 
-### Until next week you should ...
+### Until next session you should ...
 
 * [x] **Create the three features** your team chose and add them to the data preparation folder of your repository.<br>
 * [x] **Analyse the time series** of the six product groups: moving averages, percent change, seasonality.<br>
@@ -21,12 +19,6 @@
 * [x] **Check on EduHub** that your team is confirmed and every member is listed as an author.<br>
 * [x] **Agree on checks before code:** run `/to-analysis-plan` and confirm the checkpoints. For each check, name a source of truth that the pipeline does not compute itself, and replace any check that would pass by construction.<br>
 * [x] **Watch the videos and do the readings** listed below (≈ 73 minutes).
-
-{% hint style="info" %}
-**Deliverable for the operations manager:** three findings about trends and seasonality, each with one chart and one sentence on what it means for production planning.
-{% endhint %}
-
-### Videos and materials
 
 **Self-study:** lesson 4 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) covers `/to-analysis-plan`.
 
@@ -45,8 +37,14 @@
 | [Embedding Matrix](https://learn.deeplearning.ai/specializations/deep-learning/lesson/r4twj/embedding-matrix) | Deep Learning Specialization, C5 W2 | 3 |
 | **Total** | | **73** |
 
-### Optional
+{% hint style="info" %}
+**Deliverable for the operations manager:** three findings about trends and seasonality, each with one chart and one sentence on what it means for production planning.
+{% endhint %}
+
+#### Optional
 
 * Spec-Driven Development course: Project replanning (6 min), The second feature phase (6 min), The MVP (3 min).
 * Deep Learning Specialization, C5 W2: Using Word Embeddings (9 min), Properties of Word Embeddings (11 min).
 * The first two lessons of the short course “Embedding Models: from Architecture to Implementation” (DeepLearning.AI).
+
+**Estimated workload:** about 11.3 hours (session 1.75 h, videos and readings 1.5 h, tasks 8 h)
