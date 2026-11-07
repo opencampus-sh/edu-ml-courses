@@ -1,7 +1,5 @@
 # Week 9 – Missing Values
 
-**Estimated workload:** about 14.1 hours (session 1.75 h, videos 0.3 h, tasks 12 h)
-
 **Question of the week (from the operations manager):** _On which days and for which products can I rely on the forecast, and where not?_
 
 **Canvas focus:** blocks 7 and 10 (Data decisions, Findings) · **Skills:** `/tidy-notebooks`, `/to-memo`
@@ -12,7 +10,7 @@
 * estimate the imputation error and run an error analysis of your predictions,
 * build a presentation storyline for a non-technical decision-maker.
 
-### Until next week you should ...
+### Until next session you should ...
 
 * [x] **Finalise imputation and model optimisation;** divide the work in your team between data optimisation and model optimisation.<br>
 * [x] **Upload the predictions** of your best model to Kaggle.<br>
@@ -21,12 +19,6 @@
 * [x] **Prepare the final presentation** (see [week 10](week-10-presentation.md)).<br>
 * [x] **Watch the video** listed below (12 minutes).
 
-{% hint style="info" %}
-**Deliverable for the operations manager:** draft presentation slides following your storyline, plus an error analysis chart that shows the operations manager where the forecast can be trusted.
-{% endhint %}
-
-### Videos and materials
-
 **Example code:** [missing value imputation](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/09_missing_values/missing_value_imputation.ipynb) and [evaluating an imputation](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/09_missing_values/imputation_evaluation.ipynb).
 
 | Lesson / material | Source | Min |
@@ -34,8 +26,14 @@
 | [Refactoring a Jupyter Notebook & Creating a Dashboard](https://learn.deeplearning.ai/courses/claude-code-a-highly-agentic-coding-assistant/lesson/33kzr/refactoring-a-jupyter-notebook-%26-creating-a-dashboard) | Claude Code course | 12 |
 | **Total** | | **12** |
 
-### Optional
+{% hint style="info" %}
+**Deliverable for the operations manager:** draft presentation slides following your storyline, plus an error analysis chart that shows the operations manager where the forecast can be trusted.
+{% endhint %}
+
+#### Optional
 
 * Spec-Driven Development course: Legacy support (4 min), Build your own workflow (6 min), Agent replaceability (3 min).
 * Claude Code course: Adding Multiple Features Simultaneously (11 min, Git worktrees).
 * Support vector machines: slides follow at the end of the week.
+
+**Estimated workload:** about 14.1 hours (session 1.75 h, videos 0.3 h, tasks 12 h)

@@ -1,7 +1,5 @@
 # Week 6 – Baseline Models and Linear Regression
 
-**Estimated workload:** about 11.7 hours (session 1.75 h, videos 1.9 h, tasks 8 h)
-
 **Question of the week (from the operations manager):** _How much better than “same as last week” can we predict sales?_
 
 **Canvas focus:** blocks 4 and 9 (Success, Experiments) · **Skills:** `/implement-experiment`, `/review-results`, `/to-memo`
@@ -12,18 +10,12 @@
 * interpret a linear model and its cost functions (MAE, MSE),
 * explain a model to a non-technical audience without overstating causal claims.
 
-### Until next week you should ...
+### Until next session you should ...
 
 * [x] **Keep two baselines:** “same weekday last week” for the realistic next-day forecast, evaluated on your validation data, and a lag-free baseline (for example the average per product group, weekday and month) for the Kaggle submission, which covers a year without recent sales.<br>
 * [x] **Add further variables,** each as its own experiment card, reviewed with `/review-results` before it is adopted. Find a linear model that maximises the adjusted R² on the training data.<br>
 * [x] **Document the linear model** in the baseline model folder of your team repository.<br>
 * [x] **Watch the videos** listed below (≈ 77 minutes).
-
-{% hint style="info" %}
-**Deliverable for the operations manager:** your three-sentence explanation of the model, added to the README together with the scores of the baseline and the linear model.
-{% endhint %}
-
-### Videos and materials
 
 **Example code:** [linear regression with statsmodels](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/06_linear_regression/linear_regression_ols.ipynb) and [interaction effects](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/06_linear_regression/interaction_effect.ipynb).
 
@@ -39,6 +31,12 @@
 | [Regularized linear regression](https://learn.deeplearning.ai/specializations/machine-learning/lesson/taxej/regularized-linear-regression) | Supervised ML: Regression and Classification, W3 | 8 |
 | **Total** | | **77** |
 
-### Optional
+{% hint style="info" %}
+**Deliverable for the operations manager:** your three-sentence explanation of the model, added to the README together with the scores of the baseline and the linear model.
+{% endhint %}
+
+#### Optional
 
 * Supervised ML, W1: Visualizing the cost function (8 min), Gradient descent intuition (7 min), Gradient descent for linear regression (6 min).
+
+**Estimated workload:** about 11.7 hours (session 1.75 h, videos 1.9 h, tasks 8 h)

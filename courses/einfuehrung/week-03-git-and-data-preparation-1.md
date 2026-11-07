@@ -1,7 +1,5 @@
 # Week 3 – Versioning with Git and Data Preparation (Part 1)
 
-**Estimated workload:** about 9.7 hours (session 1.75 h, videos and exercises 2.9 h, tasks 5 h)
-
 **Question of the week (from the operations manager):** _What drives the bakery’s sales besides the weekday: weather, Kiel Week, season?_
 
 **Canvas focus:** blocks 2 and 5 (Questions, Data) · **Skills:** `/setup-ds-project`, `/grill-question`, `/explore-data`
@@ -15,7 +13,7 @@ This week you form your **project team of three or four** and set up your team r
 * set up a team project: a repository with canvas, glossary and decision log, an Element team room and an EduHub project,
 * merge several datasets and define checks that prove the merge is correct.
 
-### Until next week you should ...
+### Until next session you should ...
 
 * [x] **Set up your team canvas:** in your new team repository, run `/setup-ds-project`, then `/grill-question` with the project question (_How much of each product group should we bake for tomorrow?_) and answer each round together until blocks 1–4 are filled. Your week 1 practice repository is not carried over; use what you learned there, not its files.<br>
 * [x] **Finish `/explore-data`:** before reading its output, write down three guesses about the data and compare them with the results. Decide every open data decision as a team, record it in `DECISIONS.md`, and confirm the proposed checks.<br>
@@ -23,12 +21,6 @@ This week you form your **project team of three or four** and set up your team r
 * [x] **Commit your work** to the team repository; everyone pushes at least once.<br>
 * [x] **Finish the team setup on EduHub** so that the instructor can confirm your team (see [Certificate and project submission](certificate.md#your-team-project-on-eduhub)).<br>
 * [x] **Watch the videos and do the exercises** listed below (≈ 2.3 hours).
-
-{% hint style="info" %}
-**Deliverable for the operations manager:** a one-page data fact sheet: which data you use, which period it covers, what is missing, and the first answers to your three hypotheses. Base it on block 5 of your canvas and the fact sheet from `/explore-data`.
-{% endhint %}
-
-### Videos and materials
 
 **Self-study:** lesson 3 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) covers `/explore-data`.
 
@@ -51,7 +43,13 @@ This week you form your **project team of three or four** and set up your team r
 
 _In your team repository, `CANVAS.md` and the section that `/setup-ds-project` writes into `AGENTS.md` play the role of the “constitution” from the Spec-Driven Development videos._
 
-### Optional
+{% hint style="info" %}
+**Deliverable for the operations manager:** a one-page data fact sheet: which data you use, which period it covers, what is missing, and the first answers to your three hypotheses. Base it on block 5 of your canvas and the fact sheet from `/explore-data`.
+{% endhint %}
+
+#### Optional
 
 * [Regular expressions](https://youtu.be/DRR9fOXkfRE) (11 min).
 * The simulation videos of Python for Data Analytics, Module 4 (uniform and normal, ≈ 8 min).
+
+**Estimated workload:** about 9.7 hours (session 1.75 h, videos and exercises 2.9 h, tasks 5 h)
