@@ -2,13 +2,14 @@
 
 **Question of the week (from the operations manager):** _Should the bakery start selling its seasonal bread (product group 6) in October or only in November?_
 
-**Skills:** you install the course skills this week; you start using them in [week 2](week-02-import-and-visualization.md).
+**Canvas focus:** blocks 1–4 (Problem) · **Skills:** `/setup-ds-project`, `/grill-question`
 
 ### This week you will ...
 
 * distinguish data science, machine learning, AI and AI agents, and relate them to everyday examples,
 * get to know the course structure, the flipped classroom format and our client, the bakery’s operations manager,
 * get to know the team project and its question, _how much of each product group should we bake for tomorrow?_, which your team takes on from week 3,
+* practise the [Agentic Data Science Canvas](https://github.com/steffen74/agentic-data-science/tree/main/canvas) on the question of the week: turn the manager’s decision into blocks 1–4,
 * use a coding agent to answer the question of the week with data: import it, compute descriptive statistics and run a first significance test.
 
 **Slides:**
@@ -91,7 +92,38 @@ These commands are typed into the chat, not into a terminal, so they are the sam
 
 </details>
 
-#### 3. Answer the question of the week
+#### 3. Set up your canvas
+
+The canvas is a one-page plan for a data science question. Lessons 1 and 2 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) explain the canvas and `/grill-question` step by step. Skip the install step in lesson 1: you installed the skills in step 2.
+
+* [x] **Set up your practice repository.** In your practice repository, run `/setup-ds-project` (in Codex: `$setup-ds-project`). The agent asks a few questions, each with a recommended answer. Answer:
+  * issue tracker: **local files**
+  * checks: **accept the recommendation**
+  * project name: **practice**
+  * team: **only you** (teams form in week 3)
+
+  Approve when it wants to run `uv sync` or add a package. If it offers to commit, say no: Git comes in week 3. You are done when the folder contains `CANVAS.md`, `GLOSSARY.md`, `DECISIONS.md` and a `checks/` folder.
+* [x] **Sharpen the question of the week.** Run `/grill-question` with the question right after the command:
+
+  {% code overflow="wrap" %}
+  ```
+  /grill-question Our client, the bakery’s operations manager, asks: should we start selling our seasonal bread in October or only in November?
+  ```
+  {% endcode %}
+
+  Answer the agent’s questions until blocks 1–4 of `CANVAS.md` are filled. Disagree with at least one of the agent’s recommended answers, and say why.
+
+<details>
+
+<summary>More tips for the grilling</summary>
+
+* When the agent asks about block 6 (what is known in advance), accept its recommendation.
+* Good reasons to disagree: when the decision has to be made, or what would make an earlier start worth it.
+* This canvas is for practice: in week 3 your team starts a fresh repository and a new canvas for the project question.
+
+</details>
+
+#### 4. Answer the question of the week
 
 * [x] **Watch the three t-test videos first** (≈ 15 minutes). You need them for the next task.
 
@@ -130,7 +162,7 @@ These commands are typed into the chat, not into a terminal, so they are the sam
 **Deliverable for the operations manager:** a short answer of three or four sentences with one supporting number, a clear recommendation and what the data cannot tell. Write it in the last Markdown cell of your notebook and bring it to the next session; we discuss the answers in class.
 {% endhint %}
 
-#### 4. Watch the other videos
+#### 5. Watch the other videos
 
 * [x] **Watch these videos** (≈ 54 minutes) and post your questions about them in the Element course room by the day before the next session.
 
@@ -152,4 +184,4 @@ These commands are typed into the chat, not into a terminal, so they are the sam
 
 * Continue the Python track (see [Preparation](preparation.md#optional-python-track)).
 
-**Estimated workload:** about 6 hours (session 1.75 h, videos with notes 1.7 h, tasks 2.5 h)
+**Estimated workload:** about 6.5 hours (session 1.75 h, videos with notes 1.7 h, tasks 3 h)

@@ -2,11 +2,10 @@
 
 **Question of the week (from the operations manager):** _On which weekdays should we bake more, and how sure can we be?_
 
-**Canvas focus:** blocks 1–4 (Problem), with block 3 (Audiences) for your memo · **Skills:** `/setup-ds-project`, `/grill-question`, `audience` (loaded by the agent when it writes for a reader)
+**Canvas focus:** block 3 (Audiences): no new canvas this week; your memo is for the operations manager in your week 1 canvas · **Skills:** `audience` (loaded by the agent when it writes for a reader)
 
 ### This week you will ...
 
-* practise the [Agentic Data Science Canvas](https://github.com/steffen74/agentic-data-science/tree/main/canvas) on the question of the week: turn the manager’s decision into blocks 1–4,
 * steer a coding agent with clear context and verify its results with a short checklist,
 * select, filter, sort and summarise data with pandas,
 * choose suitable chart types, show uncertainty with confidence intervals, and write an action title that states the conclusion.
@@ -17,38 +16,7 @@
 
 ### Until next session you should ...
 
-#### 1. Set up your canvas
-
-The canvas is a one-page plan for a data science question. Lessons 1 and 2 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) explain the canvas and `/grill-question` step by step. Skip the install step in lesson 1: you installed the skills in [week 1](week-01-introduction.md).
-
-* [x] **Set up your practice repository.** In your practice repository from week 1, run `/setup-ds-project` (in Codex: `$setup-ds-project`). The agent asks a few questions, each with a recommended answer. Answer:
-  * issue tracker: **local files**
-  * checks: **accept the recommendation**
-  * project name: **practice**
-  * team: **only you** (teams form in week 3)
-
-  Approve when it wants to run `uv sync` or add a package. If it offers to commit, say no: Git comes in week 3. You are done when the folder contains `CANVAS.md`, `GLOSSARY.md`, `DECISIONS.md` and a `checks/` folder.
-* [x] **Sharpen the question of the week.** Run `/grill-question` with the question right after the command:
-
-  {% code overflow="wrap" %}
-  ```
-  /grill-question Our client, the bakery’s operations manager, asks: on which weekdays should we bake more, and how sure can we be?
-  ```
-  {% endcode %}
-
-  Answer the agent’s questions until blocks 1–4 of `CANVAS.md` are filled. Disagree with at least one of the agent’s recommended answers, and say why.
-
-<details>
-
-<summary>More tips for the grilling</summary>
-
-* When the agent asks about block 6 (what is known in advance), accept its recommendation.
-* Good reasons to disagree: when the decision has to be made, who reads the answer, or how big a difference must be to change the baking plan.
-* This canvas is for practice: in week 3 your team starts a fresh repository and a new canvas for the project question.
-
-</details>
-
-#### 2. Finish the weekday analysis
+#### 1. Finish the weekday analysis
 
 * [x] **Watch these videos first** (≈ 22 minutes). You need them for the analysis.
 
@@ -82,7 +50,7 @@ The canvas is a one-page plan for a data science question. Lessons 1 and 2 of [L
 
 </details>
 
-#### 3. Check and clean up
+#### 2. Check and clean up
 
 * [x] **Check before you conclude** (≈ 20 minutes) with the checklist from the session. Ask the agent, then look yourself:
   * Does the number of rows match the CSV, and are the values plausible?
@@ -111,7 +79,7 @@ The canvas is a one-page plan for a data science question. Lessons 1 and 2 of [L
 
   You are done when _Restart_ and then _Run All_ (both in the toolbar at the top of the notebook) run without errors and show the same charts. Do not use `/tidy-notebooks` yet: it splits notebooks into modules and comes in week 9.
 
-#### 4. Write the memo
+#### 3. Write the memo
 
 * [x] **Update the course skills.** Claude Code updates them when you restart it. In Codex, Copilot, Cursor or another agent, paste the install prompt from [week 1](week-01-introduction.md) into your agent again.
 * [x] **Draft the memo** (≈ 1 hour). Paste this prompt into your agent (in Codex, write `$audience` instead of “the audience skill”):
@@ -138,7 +106,7 @@ Do not use `/to-memo` (`$to-memo` in Codex) yet: it only works with reviewed res
 **Deliverable for the operations manager:** `week-02-memo.md` in your practice repository: at most half a page, with one chart, an action title, a recommendation for production planning per weekday and how sure we can be. Bring it to the next session; we discuss the memos in class.
 {% endhint %}
 
-#### 5. Watch the other videos
+#### 4. Watch the other videos
 
 * [x] **Watch these videos** (≈ 47 minutes) and post your questions in the Element course room by the day before the next session.
 
@@ -164,4 +132,4 @@ Do not use `/to-memo` (`$to-memo` in Codex) yet: it only works with reviewed res
 
 * The remaining videos of Python for Data Analytics, Module 3: text and annotations, ticks and spines, stacked column charts, scatter plots, method chaining, themes and palettes, other charts, combining charts, looping with subplots, pairplots (≈ 35 min).
 
-**Estimated workload:** about 7 hours (session 1.75 h, videos with notes 1.7 h, tasks 3.5 h)
+**Estimated workload:** about 6.5 hours (session 1.75 h, videos with notes 1.7 h, tasks 3 h)
