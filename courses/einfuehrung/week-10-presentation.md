@@ -1,7 +1,5 @@
 # Week 10 – Project Presentation
 
-**Estimated workload:** about 11.8 hours (session 1.75 h, presentation and repository 10 h)
-
 **Question of the week (from the operations manager):** _What should I do differently on Monday morning?_
 
 **Canvas focus:** block 11 (Recommendation) · **Skills:** `/ds-retro`
@@ -36,3 +34,5 @@ Prepare an **8 to 10-minute presentation** for the operations manager. Every tea
 {% endhint %}
 
 **Self-study:** lesson 7 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) covers `/to-memo` and `/ds-retro`.
+
+**Estimated workload:** about 11.8 hours (session 1.75 h, presentation and repository 10 h)

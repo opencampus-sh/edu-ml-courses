@@ -1,7 +1,5 @@
 # Week 7 – Overfitting and Model Evaluation
 
-**Estimated workload:** about 11.6 hours (session 1.75 h, videos 1.8 h, tasks 8 h)
-
 **Question of the week (from the operations manager):** _Which forecast errors hurt the bakery more: leftover bread or sold-out shelves?_
 
 **Canvas focus:** block 4 revisited (Success) · **Skills:** `/review-results`, `diagnose-surprise`
@@ -12,18 +10,12 @@
 * choose a quality criterion (MAE, MAPE, RMSE, R²) that reflects the client’s real costs,
 * explain batches, steps and epochs and the basic structure of a neural network.
 
-### Until next week you should ...
+### Until next session you should ...
 
 * [x] **Extend your dataset** with additional variables relevant for the sales forecast.<br>
 * [x] **Keep testing** your baseline model’s predictions on Kaggle.<br>
 * [x] **Plant a leak and see whether it is caught:** on a copy of your branch, shuffle the data before splitting (or add a feature that is only known afterwards). Check whether `/review-results` or `diagnose-surprise` catches it, then delete the copy.<br>
 * [x] **Watch the videos** listed below (≈ 73 minutes).
-
-{% hint style="info" %}
-**Deliverable for the operations manager:** one paragraph explaining which error measure you use and why it matches the bakery’s costs.
-{% endhint %}
-
-### Videos and materials
 
 **Example code:** [the effect of overfitting and regularization](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/07_overfitting/overfitting.ipynb). To try out small neural networks in the browser: [TensorFlow Playground](https://playground.tensorflow.org/).
 
@@ -42,7 +34,13 @@
 | [Advanced Optimization (Adam)](https://learn.deeplearning.ai/specializations/machine-learning/lesson/qj0t1/advanced-optimization) | Advanced Learning Algorithms, W2 | 6 |
 | **Total** | | **73** |
 
-### Optional
+{% hint style="info" %}
+**Deliverable for the operations manager:** one paragraph explaining which error measure you use and why it matches the bakery’s costs.
+{% endhint %}
+
+#### Optional
 
 * Advanced Learning Algorithms, W1: Neurons and the brain (10 min), Example: Recognizing Images (6 min).
 * Supervised ML, W2: Feature scaling, parts 1 and 2 (13 min), as preparation for normalization.
+
+**Estimated workload:** about 11.6 hours (session 1.75 h, videos 1.8 h, tasks 8 h)

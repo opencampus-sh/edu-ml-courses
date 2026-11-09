@@ -1,7 +1,5 @@
 # Week 5 – Time Series Analysis and Introduction to Machine Learning
 
-**Estimated workload:** about 8.3 hours (session 1.75 h, videos and readings 1.5 h, tasks 5 h)
-
 **Question of the week (from the operations manager):** _How would I know whether to trust a forecast before using it?_
 
 **Canvas focus:** blocks 4 and 8 (Success, Checks) · **Skills:** `data-checks`, `/review-results`, `/to-experiments`, `/implement-experiment`
@@ -12,17 +10,11 @@
 * describe the machine learning procedure: training, validation and test data, parameters and hyperparameters,
 * split time series data without leakage, and verify agent-generated analysis code with explicit checks instead of reading every line.
 
-### Until next week you should ...
+### Until next session you should ...
 
 * [x] **Download the Kaggle test dataset** and merge it with your data. The test year has no sales, so a model for the submission cannot use lagged sales; models with lags are evaluated on your validation data only.<br>
 * [x] **Build experiment card 1, the end-to-end baseline,** with `/implement-experiment`: watch the new checks go red before they go green, and read the log entry it writes. Commit only what passes the checks.<br>
 * [x] **Watch the videos and do the readings** listed below (≈ 68 minutes).
-
-{% hint style="info" %}
-**Deliverable for the data team:** a short paragraph in your README that explains to a technical reader how your data is split and which checks guarantee that the forecast is evaluated fairly.
-{% endhint %}
-
-### Videos and materials
 
 **Example code:** [time series predictions](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/05_time_series/time_series_predictions.ipynb).
 
@@ -46,3 +38,8 @@
 | [Interaction features](https://learn.deeplearning.ai/specializations/data-analytics/lesson/xuh1n/interaction-features) (reading) | Python for Data Analytics, M4 | 10 |
 | **Total** | | **68** |
 
+{% hint style="info" %}
+**Deliverable for the data team:** a short paragraph in your README that explains to a technical reader how your data is split and which checks guarantee that the forecast is evaluated fairly.
+{% endhint %}
+
+**Estimated workload:** about 8.3 hours (session 1.75 h, videos and readings 1.5 h, tasks 5 h)
