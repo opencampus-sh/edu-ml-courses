@@ -15,7 +15,7 @@
 
 * [x] **Create the three features** your team chose and add them to the data preparation folder of your repository.<br>
 * [x] **Analyse the time series** of the six product groups: moving averages, percent change, seasonality.<br>
-* [x] **Create a [Kaggle](https://www.kaggle.com/) account** and review the [course competition](https://www.kaggle.com/t/d832497c95d744de915ad9eb80ad9ed6). It scores forecasts for a whole year without that year’s sales, so features based on recent sales cannot be used for the submission.<br>
+* [x] **Create a [Kaggle](https://www.kaggle.com/) account** and review the [course competition](https://www.kaggle.com/t/d832497c95d744de915ad9eb80ad9ed6). Find out what it fixes for your project and record it where your agent will see it. It scores forecasts for a whole year without that year’s sales, so features based on recent sales cannot be used for the submission.<br>
 * [x] **Check on EduHub** that your team is confirmed and every member is listed as an author.<br>
 * [x] **Agree on checks before code:** run `/to-analysis-plan` and confirm the checkpoints. For each check, name a source of truth that the pipeline does not compute itself, and replace any check that would pass by construction.<br>
 * [x] **Watch the videos and do the readings** listed below (≈ 73 minutes).
