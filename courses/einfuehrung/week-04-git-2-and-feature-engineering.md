@@ -18,7 +18,7 @@
 * [x] **Create a [Kaggle](https://www.kaggle.com/) account** and review the [course competition](https://www.kaggle.com/t/d832497c95d744de915ad9eb80ad9ed6). Find out what it fixes for your project and record it where your agent will see it. It scores forecasts for a whole year without that year’s sales, so features based on recent sales cannot be used for the submission.<br>
 * [x] **Check on EduHub** that your team is confirmed and every member is listed as an author.<br>
 * [x] **Agree on checks before code:** run `/to-analysis-plan` and confirm the checkpoints. For each check, name a source of truth that the pipeline does not compute itself, and replace any check that would pass by construction.<br>
-* [x] **Watch the videos and do the readings** listed below (≈ 73 minutes).
+* [x] **Watch the videos and do the readings** listed below (≈ 81 minutes).
 
 **Self-study:** lesson 4 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) covers `/to-analysis-plan`.
 
@@ -33,9 +33,12 @@
 | [Modeling with categorical data](https://learn.deeplearning.ai/specializations/data-analytics/lesson/r7nt2/modeling-with-categorical-data) | Python for Data Analytics, M4 | 5 |
 | [Categorical data: one-hot encoding](https://developers.google.com/machine-learning/crash-course/categorical-data/one-hot-encoding) (reading) | Google ML Crash Course | 15 |
 | [Embeddings](https://developers.google.com/machine-learning/crash-course/embeddings), first pages (reading) | Google ML Crash Course | 15 |
+| [Feature specification](https://learn.deeplearning.ai/courses/spec-driven-development-with-coding-agents/lesson/15v9p3/feature-specification) (before `/to-analysis-plan`) | Spec-Driven Development course | 3 |
+| [Feature implementation](https://learn.deeplearning.ai/courses/spec-driven-development-with-coding-agents/lesson/eg5lav/feature-implementation) | Spec-Driven Development course | 1 |
+| [Feature validation](https://learn.deeplearning.ai/courses/spec-driven-development-with-coding-agents/lesson/0kj4sj/feature-validation) | Spec-Driven Development course | 4 |
 | [Word Representation](https://learn.deeplearning.ai/specializations/deep-learning/lesson/pqt4m/word-representation) | Deep Learning Specialization, C5 W2 | 10 |
 | [Embedding Matrix](https://learn.deeplearning.ai/specializations/deep-learning/lesson/r4twj/embedding-matrix) | Deep Learning Specialization, C5 W2 | 3 |
-| **Total** | | **73** |
+| **Total** | | **81** |
 
 {% hint style="info" %}
 **Deliverable for the operations manager:** three findings about trends and seasonality, each with one chart and one sentence on what it means for production planning.
@@ -47,4 +50,4 @@
 * Deep Learning Specialization, C5 W2: Using Word Embeddings (9 min), Properties of Word Embeddings (11 min).
 * The first two lessons of the short course “Embedding Models: from Architecture to Implementation” (DeepLearning.AI).
 
-**Estimated workload:** about 11.3 hours (session 1.75 h, videos and readings 1.5 h, tasks 8 h)
+**Estimated workload:** about 11.6 hours (session 1.75 h, videos and readings 1.8 h, tasks 8 h)
