@@ -17,9 +17,21 @@ This week you form your **project team of three or four** and set up your team r
 
 * [x] **Create your team repository** (in the session, one person per team): on the [template repository](https://github.com/opencampus-sh/repo-template-intro-to-data-science-and-ml), click **Use this template → Create a new repository**, name it after your team and choose **Public** (required for the [certificate](certificate.md)). Then add your teammates under _Settings → Collaborators_; they accept the invitation in their email or on GitHub. Do not fork the template: a fork stays linked to the course template.<br>
 * [x] **Clone the team repository:** everyone clones the new team repository (not the template, not your practice repository) in VS Code with _Clone Git Repository…_, into a folder next to your course resources folder. You are done when everyone has pushed a small change: your name and role in the _Team_ section of `AGENTS.md`.<br>
-* [x] **Set up your team canvas:** in your new team repository, run `/setup-ds-project`, then `/grill-question` with the project question (_How much of each product group should we bake for tomorrow?_) and answer each round together until blocks 1–4 are filled. Your week 1 practice repository is not carried over; use what you learned there, not its files.<br>
+* [x] **Set up your team canvas:** in your new team repository, run `/setup-ds-project`, then `/grill-question` with the project question (_How much of each product group should we bake for tomorrow?_) and answer each round together until blocks 1–4 are filled. Your week 1 practice repository is not carried over; use what you learned there, not its files.
+
+<details>
+
+<summary>How to answer the agent’s questions</summary>
+
+* Start with the decision (block 1), not the data: who decides what, and when? The data only matters once that is clear.
+* Each question comes with a recommended answer. Accept it when you have no reason against it; change it when you know something the agent does not, for example who decides, when the decision is made, or which error costs more.
+* Facts the agent can look up itself (for example which period the data covers); decisions are yours (which question matters most, what counts as success).
+* Disagree within the team first, then answer. The canvas records what you decided, so it should be what the team thinks, not what one person typed.
+
+</details>
+<br>
 * [x] **Finish `/explore-data`:** before reading its output, write down three guesses about the data and compare them with the results. Decide every open data decision as a team, record it in `DECISIONS.md`, and confirm the proposed checks.<br>
-* [x] **Analyse one hypothesis each:** every team member takes one hypothesis and analyses it with descriptive statistics and visualizations.<br>
+* [x] **Analyse one hypothesis each:** every team member takes one of your team’s three hypotheses and analyses it with descriptive statistics and visualizations. If your team did not choose the three hypotheses in the session, choose them first and add them to block 2 of `CANVAS.md`.<br>
 * [x] **Commit your work** to the team repository; everyone pushes at least once.<br>
 * [x] **Finish the team setup on EduHub** so that the instructor can confirm your team (see [Certificate and project submission](certificate.md#your-team-project-on-eduhub)).<br>
 * [x] **Watch the videos and do the exercises** listed below (≈ 2.3 hours).
@@ -43,6 +55,10 @@ This week you form your **project team of three or four** and set up your team r
 | [Joining Data with pandas](https://campus.datacamp.com/courses/joining-data-with-pandas/), chapter 1 (interactive) | DataCamp | 60 |
 | **Total** | | **138** |
 
+{% hint style="info" %}
+**One agent, several windows.** Claude Code is the same agent in the terminal (as in the videos), in the VS Code panel (as in this handbook) and in the desktop app. In the panel and in the app, it can run on your laptop or in the cloud; a cloud session starts from your team repository on GitHub, and its work comes back to your laptop through Git (pull). This handbook uses the VS Code panel on your laptop.
+{% endhint %}
+
 _In your team repository, `CANVAS.md` and the section that `/setup-ds-project` writes into `AGENTS.md` play the role of the “constitution” from the Spec-Driven Development videos._
 
 {% hint style="info" %}
@@ -51,6 +67,10 @@ _In your team repository, `CANVAS.md` and the section that `/setup-ds-project` w
 
 #### Optional
 
+* **P-values and confidence intervals, explained once more** (≈ 24 min), from the course *Applied Statistics for Data Analytics*, which the week 1 videos refer back to. Recommended if the quiz questions on p-values and confidence intervals were unclear to you:
+  * [Confidence intervals](https://learn.deeplearning.ai/specializations/data-analytics/lesson/hmffw/confidence-intervals) (video, 5 min)
+  * [Calculating the p value](https://learn.deeplearning.ai/specializations/data-analytics/lesson/wy6vl/calculating-the-p-value) (video, 4 min)
+  * [Explaining Statistical Inference](https://learn.deeplearning.ai/specializations/data-analytics/lesson/hyicc/explaining-statistical-inference) (reading, 15 min)
 * [Regular expressions](https://youtu.be/DRR9fOXkfRE) (11 min).
 * The simulation videos of Python for Data Analytics, Module 4 (uniform and normal, ≈ 8 min).
 
