@@ -17,7 +17,8 @@ In this course you learn to answer real questions with data, working with a codi
 | Element | The course room for all questions, and one room per team (link on the course page on EduHub) |
 | [EduHub](https://edu.opencampus.sh) | Enrolment, attendance and project submission |
 | [DeepLearning.AI](https://learn.deeplearning.ai/) | The learning videos (free account) |
-| [GitHub](https://github.com/opencampus-sh/intro-to-data-science-and-ml) | Course resources, data and example notebooks; your team repository from week 3 |
+| [GitHub: course resources](https://github.com/opencampus-sh/intro-to-data-science-and-ml) | Data and example notebooks |
+| [GitHub: project template](https://github.com/opencampus-sh/repo-template-intro-to-data-science-and-ml) | Your practice repository in weeks 1–2 (a clone) and your team repository from week 3 (*Use this template*) |
 | Kaggle | The course competition for the sales forecast, from week 4 |
 
 ### Weekly overview
