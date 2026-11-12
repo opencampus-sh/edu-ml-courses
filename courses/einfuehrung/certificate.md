@@ -23,7 +23,7 @@ From week 3 you work in a team of three or four. EduHub manages each team projec
 
 | Step | Who | What to do on EduHub | Week |
 | --- | --- | --- | --- |
-| Use the template | One team member | Click “Use this template” on the course’s project template. EduHub creates your team project with you as the first author. | 3 |
+| Use the template | One team member | Sign in on [EduHub](https://edu.opencampus.sh), open the course page and click “Use this template” on the course’s project template there (not the GitHub template). EduHub creates your team project with you as the first author. | 3 |
 | Join | Other team members | Click “Request to join” on your team’s project. The first author accepts the requests via “Manage requests”. | 3 |
 | Request review | First author | Once all requests are decided, switch off “Accepting participants” and click “Request review”. | 3 |
 | Team confirmed | Instructor | Confirms your team. From now on the team is fixed. | 3–4 |
