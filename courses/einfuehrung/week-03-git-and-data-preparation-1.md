@@ -44,6 +44,10 @@ This week you form your **project team of three or four**. In the session, one d
 
 * [x] **Push the start (the driver):** the driver writes everyone’s name and role (for example data, charts, writing, or _tbd_) into the _Team_ section of `AGENTS.md`, then in _Source Control_ commits everything and clicks _Sync Changes_. The first time, VS Code asks the driver to sign in to GitHub. If the session ends before the grilling is done, push what you have and finish it in the team call.
 
+**Slides:**
+
+<figure><img src="../../.gitbook/assets/intro-ds-week-03-slides-preview.png" alt="First slide of session 3" width="300"><figcaption><p><a href="../../.gitbook/assets/intro-ds-week-03-slides.pdf">Open the session 3 slides (PDF)</a></p></figcaption></figure>
+
 ### Until next session you should ...
 
 * [x] **Clone the team repository (everyone else):** accept the invitation (email or GitHub), clone the team repository in VS Code with _Clone Git Repository…_ into a folder next to the course resources folder, and open it. Your agent sets up the Python environment (`.venv`) the first time it runs code; in notebooks, select `.venv` as kernel (missing? ask your agent to run `uv sync`). This week only the driver pushes; you get the team’s work with _Sync Changes_ (pull), which cannot conflict as long as you have not changed the same files.<br>
