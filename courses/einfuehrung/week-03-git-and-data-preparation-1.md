@@ -15,21 +15,73 @@ This week you form your **project team of three or four**. In the session, one d
 
 ### In the session ...
 
-* [x] **Introduce yourselves:** first, one minute each: your name, what you do, what you want to get out of the project, and when you can meet.<br>
-* [x] **Team number:** online, your team number is the number of your breakout room; in the room, it is your table number with a leading 1 (table 3 → team 13). Add a short team name.<br>
-* [x] **Team room and GitHub usernames:** one person creates your team room in Element and invites the others. Everyone posts their GitHub username there. No GitHub account yet? Create one now (see [Preparation](preparation.md)).<br>
-* [x] **Team project on EduHub:** one person signs in on [EduHub](https://edu.opencampus.sh), opens the course page and clicks “Use this template” on the course’s project template there (not the GitHub template); the others request to join (see [Certificate and project submission](certificate.md#your-team-project-on-eduhub)).<br>
-* [x] **Git on your laptop:** everyone sets their Git name and email once, by giving the agent this prompt (use the email of your GitHub account):
+#### 1. Form your team
+
+* [x] **Introduce yourselves.** First, one minute each: your name, what you do, what you want to get out of the project, and when you can meet.
+* [x] **Team number.** Online, your team number is the number of your breakout room. In the room, it is your table number with a leading 1 (table 3 → team 13). Add a short team name.
+* [x] **Team room and GitHub usernames.** One person creates your team room in Element and invites the others. Everyone posts their GitHub username there. No GitHub account yet? Create one now (see [Preparation](preparation.md)).
+* [x] **Team project on EduHub.** One person signs in on [EduHub](https://edu.opencampus.sh), opens the course page and clicks “Use this template” on the course’s project template there (not the GitHub template). The others request to join (see [Certificate and project submission](certificate.md#your-team-project-on-eduhub)).
+* [x] **Choose the driver:** the person at the keyboard. The team works on the driver’s laptop with the driver’s agent, and everyone decides together; this week only the driver pushes. Choose someone whose agent works reliably (Claude Code or a paid plan are best).
+
+#### 2. Try Git on your laptop
+
+* [x] **Set your Git name and email** (once, everyone). Give the agent this prompt, with the email of your GitHub account:
 
   {% code overflow="wrap" %}
   ```
   Set my Git user name to "<your name>" and my Git email to "<the email of my GitHub account>" for all repositories on this laptop, then show me both settings.
   ```
   {% endcode %}
+* [x] **Make one commit in your practice repository.** In VS Code’s _Source Control_ view (the branch icon in the side bar):
+  1. change a line in a file,
+  2. stage the change (the **+** next to the file),
+  3. write a message and click _Commit_,
+  4. look at the history.
+* [x] **Try to send it to GitHub** with _Sync Changes_. Sign in to GitHub if VS Code asks. The push is refused, and that is the point. VS Code offers to create a fork: click **Cancel**.
 
-  Then make one commit in your practice repository: change a line in a file, and in VS Code’s _Source Control_ view stage it, write a message, click _Commit_ and look at the history. Now try to send it to GitHub with _Sync Changes_. Sign in to GitHub if VS Code asks. The push is refused, and that is the point: a **commit** saves a version on your laptop and always works; a **push** sends it to GitHub and needs permission for that repository, which you do not have for the course template. VS Code will offer to create a fork: click **Cancel**. In your team repository the driver adds you as a collaborator, so there you can push.<br>
-* [x] **Create the team repository (the driver):** your team chooses one **driver**: the person at the keyboard. The team works on the driver’s laptop with the driver’s agent, and everyone decides together; this week only the driver pushes. Choose someone whose agent works reliably (Claude Code or a paid plan are best). The driver opens the [template repository](https://github.com/opencampus-sh/repo-template-intro-to-data-science-and-ml), clicks **Use this template → Create a new repository**, names it after your team and chooses **Public** (required for the [certificate](certificate.md)). Do not fork the template: a fork stays linked to the course template. Then the driver adds the others under _Settings → Collaborators_ (with the usernames from the team room), clones the new repository in VS Code with _Clone Git Repository…_ into a folder next to the course resources folder and opens it. In Codex, Copilot or Cursor, the driver also installs the skills in this repository with the prompt from week 1 (the week 1 install only covered the practice repository).<br>
-* [x] **Grill the project question together:** the driver runs `/setup-ds-project` (in Codex: `$setup-ds-project`) and answers: issue tracker **local files**, checks **accept the recommendation**, project name **your team name**, team **all members**. Then `/grill-question` with the project question (_How much of each product group should we bake for tomorrow?_). The driver types, the team decides each answer together, until blocks 1–4 and 6 of `CANVAS.md` are filled. Your week 1 practice repository is not carried over; use what you learned there, not its files.
+<details>
+
+<summary>Why is the push refused?</summary>
+
+* A **commit** saves a version on your laptop. It always works.
+* A **push** sends it to GitHub. It needs permission for that repository, and you do not have it for the course template.
+* In your team repository, the driver adds you as a collaborator, so there you can push.
+
+</details>
+
+#### 3. Create the team repository (the driver)
+
+* [x] **Create the repository from the template.** Open the [template repository](https://github.com/opencampus-sh/repo-template-intro-to-data-science-and-ml) and click **Use this template → Create a new repository**:
+  * name it after your team,
+  * choose **Public** (required for the [certificate](certificate.md)).
+* [x] **Add the others** under _Settings → Collaborators_, with the usernames from the team room.
+* [x] **Clone and open it.** In VS Code, use _Clone Git Repository…_, choose a folder next to the course resources folder and open the new folder.
+* [x] **Only in Codex, Copilot or Cursor:** install the skills in this repository with the prompt from [week 1](week-01-introduction.md). The week 1 install only covered the practice repository.
+
+<details>
+
+<summary>Why “Use this template” and not a fork?</summary>
+
+A fork stays linked to the course template. A repository made from the template is your team’s own, with its own history.
+
+</details>
+
+#### 4. Grill the project question together
+
+* [x] **Set up the project.** The driver runs `/setup-ds-project` (in Codex: `$setup-ds-project`) and answers:
+  * issue tracker: **local files**
+  * checks: **accept the recommendation**
+  * project name: **your team name**
+  * team: **all members**
+* [x] **Grill the project question.** The driver runs `/grill-question` with the project question right after the command:
+
+  {% code overflow="wrap" %}
+  ```
+  /grill-question Our client, the bakery’s operations manager, asks: how much of each product group should we bake for tomorrow?
+  ```
+  {% endcode %}
+
+  The driver types; the team decides each answer together, until blocks 1–4 and 6 of `CANVAS.md` are filled. Your week 1 practice repository is not carried over: use what you learned there, not its files.
 
 <details>
 
@@ -42,7 +94,12 @@ This week you form your **project team of three or four**. In the session, one d
 
 </details>
 
-* [x] **Push the start (the driver):** the driver writes everyone’s name and role (for example data, charts, writing, or _tbd_) into the _Team_ section of `AGENTS.md`, then in _Source Control_ commits everything and clicks _Sync Changes_. The first time, VS Code asks the driver to sign in to GitHub. If the session ends before the grilling is done, push what you have and finish it in the team call.
+#### 5. Push the start (the driver)
+
+* [x] **Fill in the team.** Write everyone’s name and role (for example data, charts, writing, or _tbd_) into the _Team_ section of `AGENTS.md`.
+* [x] **Commit and push.** In _Source Control_, commit everything and click _Sync Changes_. The first time, VS Code asks the driver to sign in to GitHub.
+
+If the session ends before the grilling is done, push what you have and finish it in the team call.
 
 **Slides:**
 
@@ -50,13 +107,71 @@ This week you form your **project team of three or four**. In the session, one d
 
 ### Until next session you should ...
 
-* [x] **Clone the team repository (everyone else):** accept the invitation (email or GitHub), clone the team repository in VS Code with _Clone Git Repository…_ into a folder next to the course resources folder, and open it. Your agent sets up the Python environment (`.venv`) the first time it runs code; in notebooks, select `.venv` as kernel (missing? ask your agent to run `uv sync`). This week only the driver pushes; you get the team’s work with _Sync Changes_ (pull), which cannot conflict as long as you have not changed the same files.<br>
-* [x] **Explore the data in one team call** (the driver at the keyboard): finish the grilling if needed, then run `/explore-data`. Before reading its output, write down three guesses about the data (in the team room) and compare them with the results. The merge video below shows the join types. For the project, use a left join (`how="left"`), so that every sales day stays. Before you accept the agent’s merge, check it with the tools from the video: how many rows before and after, and are there rows without a match? After the join, days without Kiel Week get 0 (see the [data README](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/data/bakery/README.md)); days without weather data stay missing. Decide every open data decision as a team, record it in `DECISIONS.md`, and confirm the proposed checks. Then choose **three hypotheses** about what drives sales (for example weather, Kiel Week, season) and add them to block 2 of `CANVAS.md`. A hypothesis is a guess about one factor that the data can confirm or refute, for example “On rainy days, the bakery sells fewer rolls.” The driver commits and pushes; everyone else pulls.<br>
-* [x] **Analyse one hypothesis each:** every team member takes one hypothesis (in a team of four, two share one) and analyses it with descriptive statistics and visualizations in their own notebook, `1_DatasetCharacteristics/<your name>-<hypothesis>.ipynb` (for example `anna-rain.ipynb`). Commit it on your laptop; pushing it is the first exercise of session 4.<br>
-* [x] **Finish the team setup on EduHub** so that the instructor can confirm your team (see [Certificate and project submission](certificate.md#your-team-project-on-eduhub)).<br>
-* [x] **Watch the videos** listed below (≈ 1.1 hours).
+#### 1. Join the team repository (everyone else)
 
-**Self-study:** lesson 3 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) covers `/explore-data`.
+* [x] **Accept the invitation** (by email or on GitHub).
+* [x] **Clone the team repository** in VS Code with _Clone Git Repository…_ into a folder next to the course resources folder, and open it.
+* [x] **Get the team’s work** with _Sync Changes_ (pull). This week only the driver pushes. A pull cannot conflict as long as you have not changed the same files.
+
+<details>
+
+<summary>The Python environment (<code>.venv</code>)</summary>
+
+Your agent sets up the Python environment (`.venv`) the first time it runs code. In notebooks, select `.venv` as kernel. Missing? Ask your agent to run `uv sync`.
+
+</details>
+
+#### 2. Explore the data together
+
+* [x] **Watch the merge video first** (≈ 11 minutes). It shows the join types you need for the data.
+
+| Lesson / material | Source | Min |
+| --- | --- | --- |
+| [Pandas merge function](https://www.youtube.com/watch?v=HV1JadkJqkU): join types, `indicator`, merging on several keys | YouTube (datagy) | 11 |
+
+* [x] **Meet in one team call**, with the driver at the keyboard. Finish the grilling if needed.
+* [x] **Write down three guesses** about the data in the team room, before you read any output.
+* [x] **Run `/explore-data`** and compare its results with your guesses. Lesson 3 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) explains `/explore-data` step by step.
+* [x] **Check the merge before you accept it.** For the project, use a left join (`how="left"`), so that every sales day stays. With the tools from the video, check:
+  * How many rows are there before and after the merge?
+  * Are there rows without a match?
+* [x] **Decide as a team.** Record every open data decision in `DECISIONS.md` and confirm the proposed checks.
+* [x] **Choose three hypotheses** about what drives sales (for example weather, Kiel Week, season) and add them to block 2 of `CANVAS.md`. A hypothesis is a guess about one factor that the data can confirm or refute, for example “On rainy days, the bakery sells fewer rolls.”
+* [x] **Share it.** The driver commits and pushes; everyone else pulls.
+
+<details>
+
+<summary>Missing values after the join</summary>
+
+* Days without Kiel Week get 0 (see the [data README](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/data/bakery/README.md)).
+* Days without weather data stay missing.
+
+</details>
+
+#### 3. Analyse one hypothesis each
+
+* [x] **One hypothesis per person.** In a team of four, two share one. Analyse it with descriptive statistics and visualizations in your own notebook:
+
+  {% code overflow="wrap" %}
+  ```
+  1_DatasetCharacteristics/<your name>-<hypothesis>.ipynb
+  ```
+  {% endcode %}
+
+  For example `1_DatasetCharacteristics/anna-rain.ipynb`.
+* [x] **Commit it on your laptop.** Pushing it is the first exercise of session 4.
+
+{% hint style="info" %}
+**Deliverable for the operations manager:** a one-page data fact sheet, one per team, in `docs/fact-sheet-for-manager.md` of your team repository; bring it to session 4: which data you use, which period it covers, what is missing, and the first answers to your three hypotheses. Base it on block 5 of your canvas and the fact sheet from `/explore-data`.
+{% endhint %}
+
+#### 4. Finish the team setup on EduHub
+
+* [x] **Complete your team project on EduHub** so that the instructor can confirm your team (see [Certificate and project submission](certificate.md#your-team-project-on-eduhub)).
+
+#### 5. Watch the other videos
+
+* [x] **Watch these videos** (≈ 54 minutes).
 
 | Lesson / material | Source | Min |
 | --- | --- | --- |
@@ -67,14 +182,13 @@ This week you form your **project team of three or four**. In the session, one d
 | [Why spec-driven development?](https://learn.deeplearning.ai/courses/spec-driven-development-with-coding-agents/lesson/9i8xmt/why-spec%E2%88%92driven-development%3F) | Spec-Driven Development course | 4 |
 | [Workflow overview](https://learn.deeplearning.ai/courses/spec-driven-development-with-coding-agents/lesson/vtd82x/workflow-overview) | Spec-Driven Development course | 3 |
 | [Creating the constitution](https://learn.deeplearning.ai/courses/spec-driven-development-with-coding-agents/lesson/0kj4sq/creating-the-constitution) | Spec-Driven Development course | 5 |
-| [Pandas merge function](https://www.youtube.com/watch?v=HV1JadkJqkU): join types, `indicator`, merging on several keys | YouTube (datagy) | 11 |
-| **Total** | | **65** |
+| **Total** | | **54** |
 
-{% hint style="info" %}
-**One agent, several windows.** Claude Code is the same agent in the terminal (as in the videos), in the VS Code panel (as in this handbook) and in the desktop app. In the panel and in the app, it can run on your laptop or in the cloud; a cloud session starts from your team repository on GitHub, and its work comes back to your laptop through Git (pull). This handbook uses the VS Code panel on your laptop.
-{% endhint %}
+<details>
 
-**The Spec-Driven Development videos and this course.** The videos build a web app with the same idea you use: decide and write down before the agent builds, let the agent ask while you decide, review, then commit. Skip the course’s own setup (Node.js, WebStorm); you apply the ideas in your team repository. Their terms map to ours:
+<summary>The Spec-Driven Development videos and this course</summary>
+
+The videos build a web app with the same idea you use: decide and write down before the agent builds, let the agent ask while you decide, review, then commit. Skip the course’s own setup (Node.js, WebStorm); you apply the ideas in your team repository. Their terms map to ours:
 
 | In the videos | In this course |
 | --- | --- |
@@ -85,9 +199,15 @@ This week you form your **project team of three or four**. In the session, one d
 
 Do not create the videos’ files in your team repository; the canvas plays their role. And one difference: a software spec says what to build. Your canvas says what the operations manager decides and what you need to trust in the result, because the result itself cannot be specified in advance.
 
-{% hint style="info" %}
-**Deliverable for the operations manager:** a one-page data fact sheet, one per team, in `docs/fact-sheet-for-manager.md` of your team repository; bring it to session 4: which data you use, which period it covers, what is missing, and the first answers to your three hypotheses. Base it on block 5 of your canvas and the fact sheet from `/explore-data`.
-{% endhint %}
+</details>
+
+<details>
+
+<summary>One agent, several windows</summary>
+
+Claude Code is the same agent in the terminal (as in the videos), in the VS Code panel (as in this handbook) and in the desktop app. In the panel and in the app, it can run on your laptop or in the cloud; a cloud session starts from your team repository on GitHub, and its work comes back to your laptop through Git (pull). This handbook uses the VS Code panel on your laptop.
+
+</details>
 
 #### Optional
 
