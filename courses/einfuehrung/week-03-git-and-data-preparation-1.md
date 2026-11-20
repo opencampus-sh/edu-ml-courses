@@ -99,7 +99,7 @@ A fork stays linked to the course template. A repository made from the template 
 * [x] **Fill in the team.** Write everyone’s name and role (for example data, charts, writing, or _tbd_) into the _Team_ section of `AGENTS.md`.
 * [x] **Commit and push.** In _Source Control_, commit everything and click _Sync Changes_. The first time, VS Code asks the driver to sign in to GitHub.
 
-If the session ends before the grilling is done, push what you have and finish it in the team call.
+No time left in the session? The driver does this step in the team call, once the grilling is done (see below).
 
 **Slides:**
 
@@ -107,21 +107,7 @@ If the session ends before the grilling is done, push what you have and finish i
 
 ### Until next session you should ...
 
-#### 1. Join the team repository (everyone else)
-
-* [x] **Accept the invitation** (by email or on GitHub).
-* [x] **Clone the team repository** in VS Code with _Clone Git Repository…_ into a folder next to the course resources folder, and open it.
-* [x] **Get the team’s work** with _Sync Changes_ (pull). This week only the driver pushes. A pull cannot conflict as long as you have not changed the same files.
-
-<details>
-
-<summary>The Python environment (<code>.venv</code>)</summary>
-
-Your agent sets up the Python environment (`.venv`) the first time it runs code. In notebooks, select `.venv` as kernel. Missing? Ask your agent to run `uv sync`.
-
-</details>
-
-#### 2. Explore the data together
+#### 1. Meet as a team: finish the grilling and explore the data
 
 * [x] **Watch the merge video first** (≈ 11 minutes). It shows the join types you need for the data.
 
@@ -129,7 +115,9 @@ Your agent sets up the Python environment (`.venv`) the first time it runs code.
 | --- | --- | --- |
 | [Pandas merge function](https://www.youtube.com/watch?v=HV1JadkJqkU): join types, `indicator`, merging on several keys | YouTube (datagy) | 11 |
 
-* [x] **Meet in one team call**, with the driver at the keyboard. Finish the grilling if needed.
+* [x] **Meet in one team call**, with the driver at the keyboard. Only the driver needs the repository for this; the others join the call.
+* [x] **Finish the grilling** until blocks 1–4 and 6 of `CANVAS.md` are filled.
+* [x] **Push the start.** The driver fills in the _Team_ section of `AGENTS.md`, commits and pushes, as in step 5 above.
 * [x] **Write down three guesses** about the data in the team room, before you read any output.
 * [x] **Run `/explore-data`** and compare its results with your guesses. Lesson 3 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) explains `/explore-data` step by step.
 * [x] **Check the merge before you accept it.** For the project, use a left join (`how="left"`), so that every sales day stays. With the tools from the video, check:
@@ -137,7 +125,7 @@ Your agent sets up the Python environment (`.venv`) the first time it runs code.
   * Are there rows without a match?
 * [x] **Decide as a team.** Record every open data decision in `DECISIONS.md` and confirm the proposed checks.
 * [x] **Choose three hypotheses** about what drives sales (for example weather, Kiel Week, season) and add them to block 2 of `CANVAS.md`. A hypothesis is a guess about one factor that the data can confirm or refute, for example “On rainy days, the bakery sells fewer rolls.”
-* [x] **Share it.** The driver commits and pushes; everyone else pulls.
+* [x] **Share it.** At the end of the call, the driver commits and pushes again.
 
 <details>
 
@@ -145,6 +133,20 @@ Your agent sets up the Python environment (`.venv`) the first time it runs code.
 
 * Days without Kiel Week get 0 (see the [data README](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/data/bakery/README.md)).
 * Days without weather data stay missing.
+
+</details>
+
+#### 2. Join the team repository (everyone else)
+
+* [x] **Accept the invitation** (by email or on GitHub).
+* [x] **Clone the team repository** after the team call, in VS Code with _Clone Git Repository…_ into a folder next to the course resources folder, and open it.
+* [x] **Get the team’s work** with _Sync Changes_ (pull). This week only the driver pushes. A pull cannot conflict as long as you have not changed the same files.
+
+<details>
+
+<summary>The Python environment (<code>.venv</code>)</summary>
+
+Your agent sets up the Python environment (`.venv`) the first time it runs code. In notebooks, select `.venv` as kernel. Missing? Ask your agent to run `uv sync`.
 
 </details>
 
