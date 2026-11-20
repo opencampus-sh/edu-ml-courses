@@ -117,7 +117,7 @@ No time left in the session? The driver does this step in the team call, once th
 
 * [x] **Meet in one team call**, with the driver at the keyboard. Only the driver needs the repository for this; the others join the call.
 * [x] **Finish the grilling** until blocks 1–4 and 6 of `CANVAS.md` are filled.
-* [x] **Push the start.** The driver fills in the _Team_ section of `AGENTS.md`, commits and pushes, as in step 5 above.
+* [x] **Push the start.** The driver fills in the _Team_ section of `AGENTS.md`, then asks the agent: _“Commit everything with a short message and push it to GitHub.”_ If the push fails, use _Source Control_ in VS Code as in step 5 above: commit and click _Sync Changes_ (sign in to GitHub if asked).
 * [x] **Write down three guesses** about the data in the team room, before you read any output.
 * [x] **Run `/explore-data`** and compare its results with your guesses. Lesson 3 of [Learn it in seven lessons](https://github.com/steffen74/agentic-data-science/blob/main/docs/lessons.md) explains `/explore-data` step by step.
 * [x] **Check the merge before you accept it.** For the project, use a left join (`how="left"`), so that every sales day stays. With the tools from the video, check:
