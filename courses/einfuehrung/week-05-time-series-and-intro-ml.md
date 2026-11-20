@@ -30,16 +30,17 @@
 | [Multiple linear regression](https://learn.deeplearning.ai/specializations/data-analytics/lesson/syrdh/multiple-linear-regression) | Python for Data Analytics, M4 | 3 |
 | [Training a multiple linear regression model](https://learn.deeplearning.ai/specializations/data-analytics/lesson/t3lwv/training-a-multiple-linear-regression-model) | Python for Data Analytics, M4 | 4 |
 | [Interpreting multiple linear regression](https://learn.deeplearning.ai/specializations/data-analytics/lesson/pxhvm/interpreting-multiple-linear-regression) | Python for Data Analytics, M4 | 4 |
+| [Modeling with categorical data](https://learn.deeplearning.ai/specializations/data-analytics/lesson/r7nt2/modeling-with-categorical-data) (uses the encoding from week 4) | Python for Data Analytics, M4 | 5 |
 | [Prediction: Multiple Linear Regression](https://learn.deeplearning.ai/specializations/data-analytics/lesson/ck910/prediction%3A-multiple-linear-regression) | Python for Data Analytics, M4 | 2 |
 | [Evaluating your model](https://learn.deeplearning.ai/specializations/data-analytics/lesson/f3dsf/evaluating-your-model) | Python for Data Analytics, M4 | 5 |
 | [LLMs for model iteration](https://learn.deeplearning.ai/specializations/data-analytics/lesson/y4eqr/llms-for-model-iteration) | Python for Data Analytics, M4 | 6 |
 | [The linear regression process](https://learn.deeplearning.ai/specializations/data-analytics/lesson/mcybm/the-linear-regression-process) | Python for Data Analytics, M4 | 2 |
 | [Nonlinear transformations](https://learn.deeplearning.ai/specializations/data-analytics/lesson/ohxav/nonlinear-transformations) (reading) | Python for Data Analytics, M4 | 10 |
 | [Interaction features](https://learn.deeplearning.ai/specializations/data-analytics/lesson/xuh1n/interaction-features) (reading) | Python for Data Analytics, M4 | 10 |
-| **Total** | | **68** |
+| **Total** | | **73** |
 
 {% hint style="info" %}
 **Deliverable for the data team:** a short paragraph in your README that explains to a technical reader how your data is split and which checks guarantee that the forecast is evaluated fairly.
 {% endhint %}
 
-**Estimated workload:** about 8.3 hours (session 1.75 h, videos and readings 1.5 h, tasks 5 h)
+**Estimated workload:** about 8.4 hours (session 1.75 h, videos and readings 1.7 h, tasks 5 h)
