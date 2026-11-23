@@ -14,6 +14,7 @@ Skills are ready-made instructions that guide your coding agent through the step
 |---|---|---|
 | `/ask-ds` | Recommends the skill that fits your situation | any time |
 | `/setup-ds-project` | Sets up a repository once: canvas, glossary, decision log, checks, experiment log | week 1, again in week 3 for the team |
+| `/show-canvas` | Shows your canvas as a page in the browser, with empty blocks and new decisions marked | from week 1, any time |
 | `/grill-question` | Interviews you until the decision, questions, audiences and success criteria are sharp | week 1, week 3 with the team |
 | `/explore-data` | Profiles the data and lists the data decisions you need to make | week 3 |
 | `/to-analysis-plan` | Writes the steps of your analysis, each with a check that shows it worked | week 4 |
@@ -23,7 +24,6 @@ Skills are ready-made instructions that guide your coding agent through the step
 | `/diagnose-surprise` | Finds out why a result is too good, too bad or does not add up | when it happens |
 | `/to-memo` | Writes for an audience: decision memo, README section, presentation storyline | from week 6 |
 | `/tidy-notebooks` | Turns exploratory notebooks into a reproducible pipeline without changing results | week 9 |
-| `/show-canvas` | Shows your canvas as a page in the browser, with empty blocks and new decisions marked | any time |
 | `/ds-retro` | After a milestone: turns mistakes into checks, glossary entries and rules | week 10 |
 
 ## The skills your agent loads by itself
