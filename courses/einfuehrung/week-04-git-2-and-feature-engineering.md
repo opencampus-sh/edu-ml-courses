@@ -53,6 +53,10 @@ Everyone works in the team repository on their own laptop.
 * [x] **One feature per person** (15 minutes), from the ideas known the day before. For each, find a data source and decide how to encode it: one-hot, binning, joining categories, an interaction (two variables that act together, for example weekday × product group: on Sundays bread sells less, rolls more), or an embedding.
 * [x] **Write it down.** Features in block 6 of `CANVAS.md`, data decisions in block 7, and who builds which feature in `DECISIONS.md`. Ask the agent to check each feature against the `leakage` skill. The driver commits and syncs.
 
+**Slides:**
+
+<figure><img src="../../.gitbook/assets/intro-ds-week-04-slides-preview.png" alt="First slide of session 4" width="300"><figcaption><p><a href="../../.gitbook/assets/intro-ds-week-04-slides.pdf">Open the session 4 slides (PDF)</a></p></figcaption></figure>
+
 ### Until next session you should ...
 
 #### 1. Agree on checks before code
