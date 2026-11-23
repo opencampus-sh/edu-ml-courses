@@ -41,7 +41,7 @@ The practice repository is a copy of the [template repository](https://github.co
 
 #### 2. Install the course skills
 
-Skills are ready-made instructions that guide your agent through the steps of a data science project. You install them once. [What each skill does](https://github.com/steffen74/agentic-data-science#3-the-skills): one sentence per skill. Each skill is a plain text file, `SKILL.md`, in the [skills folder](https://github.com/steffen74/agentic-data-science/tree/main/skills/core): open it to see exactly what the skill tells your agent.
+Skills are ready-made instructions that guide your agent through the steps of a data science project. You install them once. [The skills at a glance](skills.md) lists what each one does and when you use it; `/ask-ds` tells you which skill fits next. Each skill is a plain text file, `SKILL.md`, in the [skills folder](https://github.com/steffen74/agentic-data-science/tree/main/skills/core): open it to see exactly what the skill tells your agent.
 
 {% tabs %}
 {% tab title="Claude Code" %}

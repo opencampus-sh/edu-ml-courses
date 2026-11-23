@@ -10,6 +10,7 @@
 * [Introduction to Data Science and Machine Learning](courses/einfuehrung/README.md)
   * [Certificate and Project Submission](courses/einfuehrung/certificate.md)
   * [Preparation](courses/einfuehrung/preparation.md)
+  * [The Skills at a Glance](courses/einfuehrung/skills.md)
   * [Week 1 - Introduction to Data Science](courses/einfuehrung/week-01-introduction.md)
   * [Week 2 - Data Import and Visualization](courses/einfuehrung/week-02-import-and-visualization.md)
   * [Week 3 - Versioning with Git and Data Preparation (Part 1)](courses/einfuehrung/week-03-git-and-data-preparation-1.md)

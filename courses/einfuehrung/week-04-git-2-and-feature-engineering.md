@@ -13,9 +13,10 @@
 
 ### In the session ...
 
-#### 1. Check where your team is
+#### 1. Confirm your team
 
-* [x] **One line per team:** grilling finished? Start pushed? Everyone cloned? If the driver has not pushed yet, the driver pushes now and the others clone (see week 3).
+* [x] **Missed session 3?** You join a team now. The person who created your team repository adds you as a collaborator; accept the invitation from GitHub and clone the team repository at the start of step 2, as in week 3, step 3 “Create the team repository”.
+* [x] **One line per team:** grilling finished? Start pushed? Everyone cloned? If the driver has not pushed yet, the driver pushes at the start of step 2 and the others clone (see week 3).
 
 #### 2. Push as a team
 
@@ -47,8 +48,9 @@ Everyone works in the team repository on their own laptop.
 
 #### 3. Choose your features
 
-* [x] **Answer the question of the week together:** what do we know the day before that could predict tomorrow’s sales? Collect candidate features (holidays, paydays, events, cruise ships in Kiel, weather forecasts) and sort them into _known the day before_ and _only known afterwards_.
-* [x] **One feature per person.** For each, find a data source and decide how to encode it: one-hot, binning, joining categories, an interaction (for example weekday × product group), or an embedding.
+* [x] **Collect ideas** (10 minutes): what could change how much the bakery sells tomorrow? Holidays, paydays, events, cruise ships in Kiel, weather … Every idea counts; don’t judge yet.
+* [x] **Sort them** (10 minutes) with the question of the week: what do we know the day before? Put each idea under _known the day before_ or _only known afterwards_. Only the first group can become a feature.
+* [x] **One feature per person** (15 minutes), from the ideas known the day before. For each, find a data source and decide how to encode it: one-hot, binning, joining categories, an interaction (two variables that act together, for example weekday × product group: on Sundays bread sells less, rolls more), or an embedding.
 * [x] **Write it down.** Features in block 6 of `CANVAS.md`, data decisions in block 7, and who builds which feature in `DECISIONS.md`. Ask the agent to check each feature against the `leakage` skill. The driver commits and syncs.
 
 ### Until next session you should ...
@@ -62,6 +64,8 @@ Everyone works in the team repository on their own laptop.
 | [Feature specification](https://learn.deeplearning.ai/courses/spec-driven-development-with-coding-agents/lesson/15v9p3/feature-specification) | Spec-Driven Development course | 3 |
 | [Feature implementation](https://learn.deeplearning.ai/courses/spec-driven-development-with-coding-agents/lesson/eg5lav/feature-implementation) | Spec-Driven Development course | 1 |
 | [Feature validation](https://learn.deeplearning.ai/courses/spec-driven-development-with-coding-agents/lesson/0kj4sj/feature-validation) | Spec-Driven Development course | 4 |
+
+**What the skill does:** `/to-analysis-plan` turns your canvas into a written plan, `issues/plan-….md`: the steps of your analysis and, for each step, a check that shows it worked (for example: rows after the merge = rows of the sales file).
 
 * [x] **Everyone runs the plan on their own laptop, without committing.** Sync first, then run `/to-analysis-plan` (in Codex: `$to-analysis-plan`). Open questions about the split, the baseline or the metric are expected; note them.
 * [x] **Compare in one team call.** Go through the checkpoints together. For each check, name a source of truth that the pipeline does not compute itself (for example: rows after the merge = rows of the sales file), and replace any check that would pass by construction.
@@ -94,7 +98,8 @@ The skills are installed per folder. In week 1 you installed them in your practi
 | [Segmentation](https://learn.deeplearning.ai/specializations/data-analytics/lesson/n5s9q/segmentation) | Python for Data Analytics, M5 | 5 |
 | [Resampling](https://learn.deeplearning.ai/specializations/data-analytics/lesson/h5zxx/resampling) | Python for Data Analytics, M5 | 4 |
 
-* [x] **Analyse the six product groups** in `1_DatasetCharacteristics/<your name>-time-series.ipynb`: moving averages, percent change, seasonality. Commit and sync.
+* [x] **Split the six product groups among you**, one or two each, and write down who takes which in `DECISIONS.md`.
+* [x] **Analyse your product groups** in `1_DatasetCharacteristics/<your name>-time-series.ipynb`: moving averages, percent change, seasonality, one chart per group over calendar days. Commit and sync.
 
 <details>
 
@@ -107,9 +112,9 @@ The skills are installed per folder. In week 1 you installed them in your practi
 #### 4. Find out what the competition fixes
 
 * [x] **Create a [Kaggle](https://www.kaggle.com/) account** and open the [course competition](https://www.kaggle.com/t/d832497c95d744de915ad9eb80ad9ed6).
-* [x] **One person records** in the _Data_ section of `AGENTS.md`: the test period, the metric, the submission format (one prediction per ID of the test file) and the product groups. Commit and sync.
+* [x] **Tell your agent the rules.** One person records in the _Data_ section of `AGENTS.md`, which the agent reads at the start of every session: the test period, the metric, the submission format (one prediction per ID of the test file) and the product groups. Commit and sync.
+* [x] **Think about it:** why is the forecast period a whole year, not a day or a week? And what does it mean for your features? Bring your answer to session 5.
 
-It scores forecasts for a whole year without that year’s sales, so features based on recent sales cannot be used for the submission.
 
 #### 5. Check your team on EduHub
 
@@ -130,7 +135,7 @@ It scores forecasts for a whole year without that year’s sales, so features ba
 The encoding video drops one category (`drop_first=True`), because its regression model needs that; the reading keeps all of them. Both are one-hot encoding. The regression lessons come in week 5. The Deep Learning video starts with “last week you learned about RNNs”: you do not need them for this idea.
 
 {% hint style="info" %}
-**Deliverable for the operations manager:** three findings about trends and seasonality, each with one chart and one sentence on what it means for production planning; one per team in `docs/trends-for-manager.md` of your team repository; bring it to session 5.
+**Deliverable for the operations manager:** one finding per person from your product groups (step 3), each with one chart with an action title and one sentence on what it means for production planning; on top, a short team summary: what the findings mean together, where they agree and where not. One file per team, `docs/trends-for-manager.md` of your team repository, committed before session 5. We won’t go through it in class: it records what you found and how, for your next steps, your agent, and for us if we have questions about a result.
 {% endhint %}
 
 #### Optional
